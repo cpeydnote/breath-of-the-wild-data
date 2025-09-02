@@ -1,0 +1,5743 @@
+{
+  "Weapon_Bow_001.gparamlist": {
+    "version": 0,
+    "type": "xml",
+    "param_root": {
+      "objects": {
+        "System": {
+          "SameGroupActorName": "",
+          "IsGetItemSelf": false
+        },
+        "General": {
+          "Speed": 1.0,
+          "Life": 22,
+          "IsLifeInfinite": false,
+          "ElectricalDischarge": 1.0,
+          "IsBurnOutBorn": false,
+          "BurnOutBornName": "",
+          "IsBurnOutBornIdent": false,
+          "ChangeDropTableName": ""
+        },
+        "Attack": {
+          "Power": 5,
+          "Impulse": 0,
+          "ImpulseLarge": 0,
+          "Range": 20.0,
+          "GuardBreakPower": 0,
+          "SpHitActor": "",
+          "SpHitTag": "",
+          "SpHitRatio": 2.0,
+          "SpWeakHitActor": "",
+          "PowerForPlayer": -1
+        },
+        "WeaponCommon": {
+          "PlayerEqScale": 1.0,
+          "EnemyEqScale": 1.4,
+          "GuardPower": 0,
+          "Rank": 1,
+          "IsHammer": false,
+          "IsWeakBreaker": false,
+          "IsBoomerang": false,
+          "IsBlunt": true,
+          "IsLuckyWeapon": false,
+          "IsPikohan": false,
+          "IsThrowingWeapon": false,
+          "IsThrowingBreakWeapon": true,
+          "ThrowRange": 20.0,
+          "DreadActor": "",
+          "ThroughActor": "",
+          "NPCWeaponType": "",
+          "IsNotOnTerrorHold": false,
+          "IsAsOffUnEquiped": false,
+          "ChemicalEnergyMax": 0,
+          "ChemicalEnergyAmountUsed": 0,
+          "ChemicalEnergyRecoverRate": 0.0,
+          "ChemicalEnergyRecoverInterval": 60,
+          "StickDamage": 0,
+          "ShootBeam": "",
+          "DropFromPorchRot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "SharpWeaponPer": 10.0,
+          "SharpWeaponAddAtkMin": 3,
+          "SharpWeaponAddAtkMax": 5,
+          "SharpWeaponAddLifeMin": 4,
+          "SharpWeaponAddLifeMax": 7,
+          "SharpWeaponAddCrit": false,
+          "SharpWeaponAddGuardMin": 0,
+          "SharpWeaponAddGuardMax": 0,
+          "PoweredSharpAddAtkMin": 6,
+          "PoweredSharpAddAtkMax": 8,
+          "PoweredSharpAddLifeMin": 8,
+          "PoweredSharpAddLifeMax": 13,
+          "PoweredSharpWeaponAddGuardMin": 0,
+          "PoweredSharpWeaponAddGuardMax": 0,
+          "PoweredSharpAddThrowMin": 1.0,
+          "PoweredSharpAddThrowMax": 1.0,
+          "PoweredSharpAddSpreadFire": false,
+          "PoweredSharpAddZoomRapid": false,
+          "PoweredSharpAddRapidFireMin": 1.1,
+          "PoweredSharpAddRapidFireMax": 1.3,
+          "PoweredSharpAddSurfMaster": false
+        },
+        "Bow": {
+          "QuiverName": "Weapon_Quiver_001",
+          "ArrowName": "",
+          "IsGuardPierce": false,
+          "ExtraDamageRatio": 1.0,
+          "BaseAttackPowerRatio": 1.0,
+          "IsLeadShot": false,
+          "LeadShotNum": 0,
+          "LeadShotAng": 45.0,
+          "LeadShotInterval": 0,
+          "IsRapidFire": false,
+          "RapidFireNum": 0,
+          "RapidFireInterval": 0,
+          "IsLongRange": false,
+          "ArrowFirstSpeed": 4.5,
+          "ArrowAcceleration": -0.1,
+          "ArrowStabilitySpeed": 3.0,
+          "ArrowFallAcceleration": -0.2,
+          "ArrowFallStabilitySpeed": 1.0,
+          "ArrowGravity": -9.8,
+          "PlayerHoldTransOffset": [
+            -0.1,
+            -0.01,
+            0.03
+          ],
+          "PlayerHoldRotOffset": [
+            -3.0,
+            -55.0,
+            -3.0
+          ],
+          "PlayerEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "PlayerEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "SquatPlayerHoldTransAddOffset": [
+            -0.02,
+            0.0,
+            0.0
+          ],
+          "SquatPlayerHoldRotAddOffset": [
+            0.0,
+            5.0,
+            -10.0
+          ],
+          "NPCHoldTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "NPCHoldRotOffset": [
+            30.0,
+            -80.0,
+            -20.0
+          ],
+          "NPCEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "NPCEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "EnemyEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "EnemyEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "StandEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "StandEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ArrowChargeRate": 1.0,
+          "ArrowReloadRate": 1.0,
+          "WeaponSubType": "0"
+        },
+        "Item": {
+          "PlayerUseItem": false,
+          "SellingPrice": 5,
+          "BuyingPrice": 20,
+          "CreatingPrice": -1,
+          "StainColor": -1,
+          "SaleRevivalCount": -1,
+          "UseIconActorName": ""
+        },
+        "ClothReaction": {
+          "AtkCollidableName": "Collidable_Attack",
+          "AtkCollidableBoneName": "Attack",
+          "AtkCollidableSpeed": 6.0,
+          "AtkCollidableActiveTime": 0.5,
+          "AtkCollidableResetPos": [
+            0.0,
+            0.0,
+            2.0
+          ],
+          "GroundCollidableName": "Collidable_Ground_1",
+          "GroundCollidableBoneName": "Ground_1",
+          "GroundCollidableOffset": 0.05,
+          "UseGroundCollidableResetPos": false,
+          "GroundCollidableResetPos": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "GroundCollidableMoveSpeed": 300.0,
+          "WallCollidableName": "",
+          "WallCollidableBoneName": "",
+          "WallCollidableOffset": 0.05,
+          "PlayerCollidableName": "",
+          "PlayerCollidableBoneName": ""
+        },
+        "PictureBook": {
+          "LiveSpot1": -1,
+          "LiveSpot2": -1,
+          "SpecialDrop": -1
+        }
+      },
+      "lists": {}
+    }
+  },
+  "Weapon_Bow_002.gparamlist": {
+    "version": 0,
+    "type": "xml",
+    "param_root": {
+      "objects": {
+        "System": {
+          "SameGroupActorName": "",
+          "IsGetItemSelf": false
+        },
+        "General": {
+          "Speed": 1.0,
+          "Life": 36,
+          "IsLifeInfinite": false,
+          "ElectricalDischarge": 1.0,
+          "IsBurnOutBorn": false,
+          "BurnOutBornName": "",
+          "IsBurnOutBornIdent": false,
+          "ChangeDropTableName": ""
+        },
+        "Attack": {
+          "Power": 14,
+          "Impulse": 0,
+          "ImpulseLarge": 0,
+          "Range": 20.0,
+          "GuardBreakPower": 0,
+          "SpHitActor": "",
+          "SpHitTag": "",
+          "SpHitRatio": 2.0,
+          "SpWeakHitActor": "",
+          "PowerForPlayer": -1
+        },
+        "WeaponCommon": {
+          "PlayerEqScale": 1.0,
+          "EnemyEqScale": 1.4,
+          "GuardPower": 0,
+          "Rank": 5,
+          "IsHammer": false,
+          "IsWeakBreaker": false,
+          "IsBoomerang": false,
+          "IsBlunt": true,
+          "IsLuckyWeapon": false,
+          "IsPikohan": false,
+          "IsThrowingWeapon": false,
+          "IsThrowingBreakWeapon": true,
+          "ThrowRange": 20.0,
+          "DreadActor": "",
+          "ThroughActor": "",
+          "NPCWeaponType": "",
+          "IsNotOnTerrorHold": false,
+          "IsAsOffUnEquiped": false,
+          "ChemicalEnergyMax": 0,
+          "ChemicalEnergyAmountUsed": 0,
+          "ChemicalEnergyRecoverRate": 0.0,
+          "ChemicalEnergyRecoverInterval": 60,
+          "StickDamage": 0,
+          "ShootBeam": "",
+          "DropFromPorchRot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "SharpWeaponPer": 10.0,
+          "SharpWeaponAddAtkMin": 3,
+          "SharpWeaponAddAtkMax": 6,
+          "SharpWeaponAddLifeMin": 3,
+          "SharpWeaponAddLifeMax": 6,
+          "SharpWeaponAddCrit": false,
+          "SharpWeaponAddGuardMin": 0,
+          "SharpWeaponAddGuardMax": 0,
+          "PoweredSharpAddAtkMin": 7,
+          "PoweredSharpAddAtkMax": 11,
+          "PoweredSharpAddLifeMin": 7,
+          "PoweredSharpAddLifeMax": 11,
+          "PoweredSharpWeaponAddGuardMin": 0,
+          "PoweredSharpWeaponAddGuardMax": 0,
+          "PoweredSharpAddThrowMin": 1.0,
+          "PoweredSharpAddThrowMax": 1.0,
+          "PoweredSharpAddSpreadFire": false,
+          "PoweredSharpAddZoomRapid": false,
+          "PoweredSharpAddRapidFireMin": 1.1,
+          "PoweredSharpAddRapidFireMax": 1.3,
+          "PoweredSharpAddSurfMaster": false
+        },
+        "Bow": {
+          "QuiverName": "Weapon_Quiver_001",
+          "ArrowName": "",
+          "IsGuardPierce": false,
+          "ExtraDamageRatio": 1.0,
+          "BaseAttackPowerRatio": 1.0,
+          "IsLeadShot": false,
+          "LeadShotNum": 0,
+          "LeadShotAng": 45.0,
+          "LeadShotInterval": 0,
+          "IsRapidFire": false,
+          "RapidFireNum": 0,
+          "RapidFireInterval": 0,
+          "IsLongRange": false,
+          "ArrowFirstSpeed": 4.5,
+          "ArrowAcceleration": -0.1,
+          "ArrowStabilitySpeed": 3.0,
+          "ArrowFallAcceleration": -0.2,
+          "ArrowFallStabilitySpeed": 1.0,
+          "ArrowGravity": -9.8,
+          "PlayerHoldTransOffset": [
+            -0.1,
+            -0.005,
+            0.04
+          ],
+          "PlayerHoldRotOffset": [
+            -3.0,
+            -55.0,
+            -3.0
+          ],
+          "PlayerEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "PlayerEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "SquatPlayerHoldTransAddOffset": [
+            -0.03,
+            0.0,
+            0.0
+          ],
+          "SquatPlayerHoldRotAddOffset": [
+            0.0,
+            7.0,
+            -5.0
+          ],
+          "NPCHoldTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "NPCHoldRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "NPCEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "NPCEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "EnemyEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "EnemyEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "StandEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "StandEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ArrowChargeRate": 1.0,
+          "ArrowReloadRate": 1.0,
+          "WeaponSubType": "0"
+        },
+        "Item": {
+          "PlayerUseItem": false,
+          "SellingPrice": 18,
+          "BuyingPrice": 70,
+          "CreatingPrice": -1,
+          "StainColor": -1,
+          "SaleRevivalCount": -1,
+          "UseIconActorName": ""
+        },
+        "ClothReaction": {
+          "AtkCollidableName": "Collidable_Attack",
+          "AtkCollidableBoneName": "Attack",
+          "AtkCollidableSpeed": 6.0,
+          "AtkCollidableActiveTime": 0.5,
+          "AtkCollidableResetPos": [
+            0.0,
+            0.0,
+            2.0
+          ],
+          "GroundCollidableName": "Collidable_Ground_1",
+          "GroundCollidableBoneName": "Ground_1",
+          "GroundCollidableOffset": 0.05,
+          "UseGroundCollidableResetPos": false,
+          "GroundCollidableResetPos": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "GroundCollidableMoveSpeed": 300.0,
+          "WallCollidableName": "",
+          "WallCollidableBoneName": "",
+          "WallCollidableOffset": 0.05,
+          "PlayerCollidableName": "",
+          "PlayerCollidableBoneName": ""
+        },
+        "PictureBook": {
+          "LiveSpot1": -1,
+          "LiveSpot2": -1,
+          "SpecialDrop": -1
+        }
+      },
+      "lists": {}
+    }
+  },
+  "Weapon_Bow_003.gparamlist": {
+    "version": 0,
+    "type": "xml",
+    "param_root": {
+      "objects": {
+        "System": {
+          "SameGroupActorName": "",
+          "IsGetItemSelf": false
+        },
+        "General": {
+          "Speed": 1.0,
+          "Life": 20,
+          "IsLifeInfinite": false,
+          "ElectricalDischarge": 1.0,
+          "IsBurnOutBorn": false,
+          "BurnOutBornName": "",
+          "IsBurnOutBornIdent": false,
+          "ChangeDropTableName": ""
+        },
+        "Attack": {
+          "Power": 12,
+          "Impulse": 0,
+          "ImpulseLarge": 0,
+          "Range": 20.0,
+          "GuardBreakPower": 0,
+          "SpHitActor": "",
+          "SpHitTag": "",
+          "SpHitRatio": 2.0,
+          "SpWeakHitActor": "",
+          "PowerForPlayer": -1
+        },
+        "WeaponCommon": {
+          "PlayerEqScale": 1.0,
+          "EnemyEqScale": 1.4,
+          "GuardPower": 0,
+          "Rank": 3,
+          "IsHammer": false,
+          "IsWeakBreaker": false,
+          "IsBoomerang": false,
+          "IsBlunt": true,
+          "IsLuckyWeapon": false,
+          "IsPikohan": false,
+          "IsThrowingWeapon": false,
+          "IsThrowingBreakWeapon": true,
+          "ThrowRange": 20.0,
+          "DreadActor": "",
+          "ThroughActor": "",
+          "NPCWeaponType": "",
+          "IsNotOnTerrorHold": false,
+          "IsAsOffUnEquiped": false,
+          "ChemicalEnergyMax": 0,
+          "ChemicalEnergyAmountUsed": 0,
+          "ChemicalEnergyRecoverRate": 0.0,
+          "ChemicalEnergyRecoverInterval": 60,
+          "StickDamage": 0,
+          "ShootBeam": "",
+          "DropFromPorchRot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "SharpWeaponPer": 10.0,
+          "SharpWeaponAddAtkMin": 3,
+          "SharpWeaponAddAtkMax": 6,
+          "SharpWeaponAddLifeMin": 2,
+          "SharpWeaponAddLifeMax": 4,
+          "SharpWeaponAddCrit": false,
+          "SharpWeaponAddGuardMin": 0,
+          "SharpWeaponAddGuardMax": 0,
+          "PoweredSharpAddAtkMin": 7,
+          "PoweredSharpAddAtkMax": 11,
+          "PoweredSharpAddLifeMin": 5,
+          "PoweredSharpAddLifeMax": 10,
+          "PoweredSharpWeaponAddGuardMin": 0,
+          "PoweredSharpWeaponAddGuardMax": 0,
+          "PoweredSharpAddThrowMin": 1.0,
+          "PoweredSharpAddThrowMax": 1.0,
+          "PoweredSharpAddSpreadFire": false,
+          "PoweredSharpAddZoomRapid": false,
+          "PoweredSharpAddRapidFireMin": 1.1,
+          "PoweredSharpAddRapidFireMax": 1.3,
+          "PoweredSharpAddSurfMaster": false
+        },
+        "Bow": {
+          "QuiverName": "Weapon_Quiver_001",
+          "ArrowName": "",
+          "IsGuardPierce": false,
+          "ExtraDamageRatio": 1.0,
+          "BaseAttackPowerRatio": 1.0,
+          "IsLeadShot": false,
+          "LeadShotNum": 3,
+          "LeadShotAng": 13.0,
+          "LeadShotInterval": 1,
+          "IsRapidFire": false,
+          "RapidFireNum": 2,
+          "RapidFireInterval": 3,
+          "IsLongRange": false,
+          "ArrowFirstSpeed": 4.5,
+          "ArrowAcceleration": -0.1,
+          "ArrowStabilitySpeed": 3.0,
+          "ArrowFallAcceleration": -0.2,
+          "ArrowFallStabilitySpeed": 1.0,
+          "ArrowGravity": -9.8,
+          "PlayerHoldTransOffset": [
+            -0.1,
+            0.01,
+            0.04
+          ],
+          "PlayerHoldRotOffset": [
+            0.0,
+            -55.0,
+            -8.0
+          ],
+          "PlayerEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "PlayerEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "SquatPlayerHoldTransAddOffset": [
+            -0.03,
+            0.0,
+            0.0
+          ],
+          "SquatPlayerHoldRotAddOffset": [
+            0.0,
+            7.0,
+            -10.0
+          ],
+          "NPCHoldTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "NPCHoldRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "NPCEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "NPCEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "EnemyEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "EnemyEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "StandEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "StandEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ArrowChargeRate": 1.0,
+          "ArrowReloadRate": 1.0,
+          "WeaponSubType": "0"
+        },
+        "Item": {
+          "PlayerUseItem": false,
+          "SellingPrice": 10,
+          "BuyingPrice": 30,
+          "CreatingPrice": -1,
+          "StainColor": -1,
+          "SaleRevivalCount": -1,
+          "UseIconActorName": ""
+        },
+        "ClothReaction": {
+          "AtkCollidableName": "Collidable_Attack",
+          "AtkCollidableBoneName": "Attack",
+          "AtkCollidableSpeed": 6.0,
+          "AtkCollidableActiveTime": 0.5,
+          "AtkCollidableResetPos": [
+            0.0,
+            0.0,
+            2.0
+          ],
+          "GroundCollidableName": "Collidable_Ground_1",
+          "GroundCollidableBoneName": "Ground_1",
+          "GroundCollidableOffset": 0.05,
+          "UseGroundCollidableResetPos": false,
+          "GroundCollidableResetPos": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "GroundCollidableMoveSpeed": 300.0,
+          "WallCollidableName": "",
+          "WallCollidableBoneName": "",
+          "WallCollidableOffset": 0.05,
+          "PlayerCollidableName": "",
+          "PlayerCollidableBoneName": ""
+        },
+        "PictureBook": {
+          "LiveSpot1": -1,
+          "LiveSpot2": -1,
+          "SpecialDrop": -1
+        }
+      },
+      "lists": {}
+    }
+  },
+  "Weapon_Bow_004.gparamlist": {
+    "version": 0,
+    "type": "xml",
+    "param_root": {
+      "objects": {
+        "System": {
+          "SameGroupActorName": "",
+          "IsGetItemSelf": false
+        },
+        "General": {
+          "Speed": 1.0,
+          "Life": 16,
+          "IsLifeInfinite": false,
+          "ElectricalDischarge": 1.0,
+          "IsBurnOutBorn": false,
+          "BurnOutBornName": "",
+          "IsBurnOutBornIdent": false,
+          "ChangeDropTableName": ""
+        },
+        "Attack": {
+          "Power": 4,
+          "Impulse": 0,
+          "ImpulseLarge": 0,
+          "Range": 20.0,
+          "GuardBreakPower": 0,
+          "SpHitActor": "",
+          "SpHitTag": "",
+          "SpHitRatio": 2.0,
+          "SpWeakHitActor": "",
+          "PowerForPlayer": -1
+        },
+        "WeaponCommon": {
+          "PlayerEqScale": 1.0,
+          "EnemyEqScale": 1.4,
+          "GuardPower": 0,
+          "Rank": 2,
+          "IsHammer": false,
+          "IsWeakBreaker": false,
+          "IsBoomerang": false,
+          "IsBlunt": true,
+          "IsLuckyWeapon": false,
+          "IsPikohan": false,
+          "IsThrowingWeapon": false,
+          "IsThrowingBreakWeapon": true,
+          "ThrowRange": 20.0,
+          "DreadActor": "",
+          "ThroughActor": "",
+          "NPCWeaponType": "",
+          "IsNotOnTerrorHold": false,
+          "IsAsOffUnEquiped": false,
+          "ChemicalEnergyMax": 0,
+          "ChemicalEnergyAmountUsed": 0,
+          "ChemicalEnergyRecoverRate": 0.0,
+          "ChemicalEnergyRecoverInterval": 60,
+          "StickDamage": 0,
+          "ShootBeam": "",
+          "DropFromPorchRot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "SharpWeaponPer": 10.0,
+          "SharpWeaponAddAtkMin": 2,
+          "SharpWeaponAddAtkMax": 4,
+          "SharpWeaponAddLifeMin": 2,
+          "SharpWeaponAddLifeMax": 4,
+          "SharpWeaponAddCrit": false,
+          "SharpWeaponAddGuardMin": 0,
+          "SharpWeaponAddGuardMax": 0,
+          "PoweredSharpAddAtkMin": 5,
+          "PoweredSharpAddAtkMax": 7,
+          "PoweredSharpAddLifeMin": 5,
+          "PoweredSharpAddLifeMax": 8,
+          "PoweredSharpWeaponAddGuardMin": 0,
+          "PoweredSharpWeaponAddGuardMax": 0,
+          "PoweredSharpAddThrowMin": 1.0,
+          "PoweredSharpAddThrowMax": 1.0,
+          "PoweredSharpAddSpreadFire": false,
+          "PoweredSharpAddZoomRapid": false,
+          "PoweredSharpAddRapidFireMin": 1.1,
+          "PoweredSharpAddRapidFireMax": 1.3,
+          "PoweredSharpAddSurfMaster": false
+        },
+        "Bow": {
+          "QuiverName": "Weapon_Quiver_001",
+          "ArrowName": "",
+          "IsGuardPierce": false,
+          "ExtraDamageRatio": 1.0,
+          "BaseAttackPowerRatio": 1.0,
+          "IsLeadShot": false,
+          "LeadShotNum": 0,
+          "LeadShotAng": 45.0,
+          "LeadShotInterval": 0,
+          "IsRapidFire": false,
+          "RapidFireNum": 0,
+          "RapidFireInterval": 0,
+          "IsLongRange": false,
+          "ArrowFirstSpeed": 4.5,
+          "ArrowAcceleration": -0.1,
+          "ArrowStabilitySpeed": 3.0,
+          "ArrowFallAcceleration": -0.2,
+          "ArrowFallStabilitySpeed": 1.0,
+          "ArrowGravity": -9.8,
+          "PlayerHoldTransOffset": [
+            -0.1,
+            0.01,
+            0.04
+          ],
+          "PlayerHoldRotOffset": [
+            0.0,
+            -55.0,
+            -8.0
+          ],
+          "PlayerEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "PlayerEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "SquatPlayerHoldTransAddOffset": [
+            -0.03,
+            0.0,
+            0.0
+          ],
+          "SquatPlayerHoldRotAddOffset": [
+            0.0,
+            7.0,
+            -10.0
+          ],
+          "NPCHoldTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "NPCHoldRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "NPCEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "NPCEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "EnemyEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "EnemyEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "StandEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "StandEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ArrowChargeRate": 1.0,
+          "ArrowReloadRate": 1.0,
+          "WeaponSubType": "0"
+        },
+        "Item": {
+          "PlayerUseItem": false,
+          "SellingPrice": 3,
+          "BuyingPrice": 9,
+          "CreatingPrice": -1,
+          "StainColor": -1,
+          "SaleRevivalCount": -1,
+          "UseIconActorName": ""
+        },
+        "ClothReaction": {
+          "AtkCollidableName": "Collidable_Attack",
+          "AtkCollidableBoneName": "Attack",
+          "AtkCollidableSpeed": 6.0,
+          "AtkCollidableActiveTime": 0.5,
+          "AtkCollidableResetPos": [
+            0.0,
+            0.0,
+            2.0
+          ],
+          "GroundCollidableName": "Collidable_Ground_1",
+          "GroundCollidableBoneName": "Ground_1",
+          "GroundCollidableOffset": 0.05,
+          "UseGroundCollidableResetPos": false,
+          "GroundCollidableResetPos": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "GroundCollidableMoveSpeed": 300.0,
+          "WallCollidableName": "",
+          "WallCollidableBoneName": "",
+          "WallCollidableOffset": 0.05,
+          "PlayerCollidableName": "",
+          "PlayerCollidableBoneName": ""
+        },
+        "PictureBook": {
+          "LiveSpot1": -1,
+          "LiveSpot2": -1,
+          "SpecialDrop": -1
+        }
+      },
+      "lists": {}
+    }
+  },
+  "Weapon_Bow_006.gparamlist": {
+    "version": 0,
+    "type": "xml",
+    "param_root": {
+      "objects": {
+        "System": {
+          "SameGroupActorName": "",
+          "IsGetItemSelf": false
+        },
+        "General": {
+          "Speed": 1.0,
+          "Life": 25,
+          "IsLifeInfinite": false,
+          "ElectricalDischarge": 1.0,
+          "IsBurnOutBorn": false,
+          "BurnOutBornName": "",
+          "IsBurnOutBornIdent": false,
+          "ChangeDropTableName": ""
+        },
+        "Attack": {
+          "Power": 14,
+          "Impulse": 0,
+          "ImpulseLarge": 0,
+          "Range": 20.0,
+          "GuardBreakPower": 0,
+          "SpHitActor": "",
+          "SpHitTag": "",
+          "SpHitRatio": 2.0,
+          "SpWeakHitActor": "",
+          "PowerForPlayer": -1
+        },
+        "WeaponCommon": {
+          "PlayerEqScale": 1.0,
+          "EnemyEqScale": 1.4,
+          "GuardPower": 0,
+          "Rank": 6,
+          "IsHammer": false,
+          "IsWeakBreaker": false,
+          "IsBoomerang": false,
+          "IsBlunt": true,
+          "IsLuckyWeapon": false,
+          "IsPikohan": false,
+          "IsThrowingWeapon": false,
+          "IsThrowingBreakWeapon": true,
+          "ThrowRange": 20.0,
+          "DreadActor": "",
+          "ThroughActor": "",
+          "NPCWeaponType": "",
+          "IsNotOnTerrorHold": false,
+          "IsAsOffUnEquiped": false,
+          "ChemicalEnergyMax": 0,
+          "ChemicalEnergyAmountUsed": 0,
+          "ChemicalEnergyRecoverRate": 0.0,
+          "ChemicalEnergyRecoverInterval": 60,
+          "StickDamage": 0,
+          "ShootBeam": "",
+          "DropFromPorchRot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "SharpWeaponPer": 10.0,
+          "SharpWeaponAddAtkMin": 3,
+          "SharpWeaponAddAtkMax": 6,
+          "SharpWeaponAddLifeMin": 3,
+          "SharpWeaponAddLifeMax": 5,
+          "SharpWeaponAddCrit": false,
+          "SharpWeaponAddGuardMin": 0,
+          "SharpWeaponAddGuardMax": 0,
+          "PoweredSharpAddAtkMin": 7,
+          "PoweredSharpAddAtkMax": 10,
+          "PoweredSharpAddLifeMin": 6,
+          "PoweredSharpAddLifeMax": 13,
+          "PoweredSharpWeaponAddGuardMin": 0,
+          "PoweredSharpWeaponAddGuardMax": 0,
+          "PoweredSharpAddThrowMin": 1.0,
+          "PoweredSharpAddThrowMax": 1.0,
+          "PoweredSharpAddSpreadFire": false,
+          "PoweredSharpAddZoomRapid": false,
+          "PoweredSharpAddRapidFireMin": 1.1,
+          "PoweredSharpAddRapidFireMax": 1.3,
+          "PoweredSharpAddSurfMaster": false
+        },
+        "Bow": {
+          "QuiverName": "Weapon_Quiver_001",
+          "ArrowName": "",
+          "IsGuardPierce": false,
+          "ExtraDamageRatio": 1.0,
+          "BaseAttackPowerRatio": 1.0,
+          "IsLeadShot": false,
+          "LeadShotNum": 0,
+          "LeadShotAng": 45.0,
+          "LeadShotInterval": 0,
+          "IsRapidFire": false,
+          "RapidFireNum": 0,
+          "RapidFireInterval": 0,
+          "IsLongRange": false,
+          "ArrowFirstSpeed": 4.5,
+          "ArrowAcceleration": -0.1,
+          "ArrowStabilitySpeed": 3.0,
+          "ArrowFallAcceleration": -0.2,
+          "ArrowFallStabilitySpeed": 1.0,
+          "ArrowGravity": -9.8,
+          "PlayerHoldTransOffset": [
+            -0.1,
+            0.0,
+            0.05
+          ],
+          "PlayerHoldRotOffset": [
+            -3.0,
+            -55.0,
+            -7.0
+          ],
+          "PlayerEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "PlayerEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "SquatPlayerHoldTransAddOffset": [
+            -0.03,
+            -0.01,
+            0.0
+          ],
+          "SquatPlayerHoldRotAddOffset": [
+            0.0,
+            6.0,
+            -8.0
+          ],
+          "NPCHoldTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "NPCHoldRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "NPCEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "NPCEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "EnemyEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "EnemyEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "StandEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "StandEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ArrowChargeRate": 1.0,
+          "ArrowReloadRate": 1.0,
+          "WeaponSubType": "0"
+        },
+        "Item": {
+          "PlayerUseItem": false,
+          "SellingPrice": 8,
+          "BuyingPrice": 24,
+          "CreatingPrice": -1,
+          "StainColor": -1,
+          "SaleRevivalCount": -1,
+          "UseIconActorName": ""
+        },
+        "ClothReaction": {
+          "AtkCollidableName": "Collidable_Attack",
+          "AtkCollidableBoneName": "Attack",
+          "AtkCollidableSpeed": 6.0,
+          "AtkCollidableActiveTime": 0.5,
+          "AtkCollidableResetPos": [
+            0.0,
+            0.0,
+            2.0
+          ],
+          "GroundCollidableName": "Collidable_Ground_1",
+          "GroundCollidableBoneName": "Ground_1",
+          "GroundCollidableOffset": 0.05,
+          "UseGroundCollidableResetPos": false,
+          "GroundCollidableResetPos": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "GroundCollidableMoveSpeed": 300.0,
+          "WallCollidableName": "",
+          "WallCollidableBoneName": "",
+          "WallCollidableOffset": 0.05,
+          "PlayerCollidableName": "",
+          "PlayerCollidableBoneName": ""
+        },
+        "PictureBook": {
+          "LiveSpot1": -1,
+          "LiveSpot2": -1,
+          "SpecialDrop": -1
+        }
+      },
+      "lists": {}
+    }
+  },
+  "Weapon_Bow_009.gparamlist": {
+    "version": 0,
+    "type": "xml",
+    "param_root": {
+      "objects": {
+        "System": {
+          "SameGroupActorName": "",
+          "IsGetItemSelf": false
+        },
+        "General": {
+          "Speed": 1.0,
+          "Life": 30,
+          "IsLifeInfinite": false,
+          "ElectricalDischarge": 1.0,
+          "IsBurnOutBorn": false,
+          "BurnOutBornName": "",
+          "IsBurnOutBornIdent": false,
+          "ChangeDropTableName": ""
+        },
+        "Attack": {
+          "Power": 10,
+          "Impulse": 0,
+          "ImpulseLarge": 0,
+          "Range": 20.0,
+          "GuardBreakPower": 0,
+          "SpHitActor": "",
+          "SpHitTag": "",
+          "SpHitRatio": 2.0,
+          "SpWeakHitActor": "",
+          "PowerForPlayer": -1
+        },
+        "WeaponCommon": {
+          "PlayerEqScale": 1.0,
+          "EnemyEqScale": 1.4,
+          "GuardPower": 0,
+          "Rank": 12,
+          "IsHammer": false,
+          "IsWeakBreaker": false,
+          "IsBoomerang": false,
+          "IsBlunt": true,
+          "IsLuckyWeapon": false,
+          "IsPikohan": false,
+          "IsThrowingWeapon": false,
+          "IsThrowingBreakWeapon": true,
+          "ThrowRange": 20.0,
+          "DreadActor": "",
+          "ThroughActor": "",
+          "NPCWeaponType": "",
+          "IsNotOnTerrorHold": false,
+          "IsAsOffUnEquiped": false,
+          "ChemicalEnergyMax": 0,
+          "ChemicalEnergyAmountUsed": 0,
+          "ChemicalEnergyRecoverRate": 0.0,
+          "ChemicalEnergyRecoverInterval": 60,
+          "StickDamage": 0,
+          "ShootBeam": "",
+          "DropFromPorchRot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "SharpWeaponPer": 10.0,
+          "SharpWeaponAddAtkMin": 3,
+          "SharpWeaponAddAtkMax": 5,
+          "SharpWeaponAddLifeMin": 4,
+          "SharpWeaponAddLifeMax": 7,
+          "SharpWeaponAddCrit": false,
+          "SharpWeaponAddGuardMin": 0,
+          "SharpWeaponAddGuardMax": 0,
+          "PoweredSharpAddAtkMin": 6,
+          "PoweredSharpAddAtkMax": 9,
+          "PoweredSharpAddLifeMin": 8,
+          "PoweredSharpAddLifeMax": 18,
+          "PoweredSharpWeaponAddGuardMin": 0,
+          "PoweredSharpWeaponAddGuardMax": 0,
+          "PoweredSharpAddThrowMin": 1.0,
+          "PoweredSharpAddThrowMax": 1.0,
+          "PoweredSharpAddSpreadFire": true,
+          "PoweredSharpAddZoomRapid": false,
+          "PoweredSharpAddRapidFireMin": 1.1,
+          "PoweredSharpAddRapidFireMax": 1.3,
+          "PoweredSharpAddSurfMaster": false
+        },
+        "Bow": {
+          "QuiverName": "Weapon_Quiver_001",
+          "ArrowName": "",
+          "IsGuardPierce": false,
+          "ExtraDamageRatio": 0.6,
+          "BaseAttackPowerRatio": 0.6,
+          "IsLeadShot": true,
+          "LeadShotNum": 3,
+          "LeadShotAng": 3.0,
+          "LeadShotInterval": 1,
+          "IsRapidFire": false,
+          "RapidFireNum": 0,
+          "RapidFireInterval": 0,
+          "IsLongRange": false,
+          "ArrowFirstSpeed": 4.5,
+          "ArrowAcceleration": -0.1,
+          "ArrowStabilitySpeed": 3.0,
+          "ArrowFallAcceleration": -0.2,
+          "ArrowFallStabilitySpeed": 1.0,
+          "ArrowGravity": -9.8,
+          "PlayerHoldTransOffset": [
+            -0.1,
+            0.0,
+            0.06
+          ],
+          "PlayerHoldRotOffset": [
+            0.0,
+            -55.0,
+            -8.0
+          ],
+          "PlayerEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "PlayerEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "SquatPlayerHoldTransAddOffset": [
+            -0.03,
+            -0.025,
+            0.0
+          ],
+          "SquatPlayerHoldRotAddOffset": [
+            0.0,
+            9.0,
+            -10.0
+          ],
+          "NPCHoldTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "NPCHoldRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "NPCEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "NPCEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "EnemyEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "EnemyEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "StandEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "StandEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ArrowChargeRate": 1.0,
+          "ArrowReloadRate": 1.0,
+          "WeaponSubType": "0"
+        },
+        "Item": {
+          "PlayerUseItem": false,
+          "SellingPrice": 18,
+          "BuyingPrice": 54,
+          "CreatingPrice": -1,
+          "StainColor": -1,
+          "SaleRevivalCount": -1,
+          "UseIconActorName": ""
+        },
+        "ClothReaction": {
+          "AtkCollidableName": "Collidable_Attack",
+          "AtkCollidableBoneName": "Attack",
+          "AtkCollidableSpeed": 6.0,
+          "AtkCollidableActiveTime": 0.5,
+          "AtkCollidableResetPos": [
+            0.0,
+            0.0,
+            2.0
+          ],
+          "GroundCollidableName": "Collidable_Ground_1",
+          "GroundCollidableBoneName": "Ground_1",
+          "GroundCollidableOffset": 0.05,
+          "UseGroundCollidableResetPos": false,
+          "GroundCollidableResetPos": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "GroundCollidableMoveSpeed": 300.0,
+          "WallCollidableName": "",
+          "WallCollidableBoneName": "",
+          "WallCollidableOffset": 0.05,
+          "PlayerCollidableName": "",
+          "PlayerCollidableBoneName": ""
+        },
+        "PictureBook": {
+          "LiveSpot1": -1,
+          "LiveSpot2": -1,
+          "SpecialDrop": -1
+        }
+      },
+      "lists": {}
+    }
+  },
+  "Weapon_Bow_011.gparamlist": {
+    "version": 0,
+    "type": "xml",
+    "param_root": {
+      "objects": {
+        "System": {
+          "SameGroupActorName": "",
+          "IsGetItemSelf": false
+        },
+        "General": {
+          "Speed": 1.0,
+          "Life": 35,
+          "IsLifeInfinite": false,
+          "ElectricalDischarge": 1.0,
+          "IsBurnOutBorn": false,
+          "BurnOutBornName": "",
+          "IsBurnOutBornIdent": false,
+          "ChangeDropTableName": ""
+        },
+        "Attack": {
+          "Power": 25,
+          "Impulse": 0,
+          "ImpulseLarge": 0,
+          "Range": 20.0,
+          "GuardBreakPower": 0,
+          "SpHitActor": "",
+          "SpHitTag": "",
+          "SpHitRatio": 2.0,
+          "SpWeakHitActor": "",
+          "PowerForPlayer": -1
+        },
+        "WeaponCommon": {
+          "PlayerEqScale": 1.0,
+          "EnemyEqScale": 1.4,
+          "GuardPower": 0,
+          "Rank": 0,
+          "IsHammer": false,
+          "IsWeakBreaker": false,
+          "IsBoomerang": false,
+          "IsBlunt": true,
+          "IsLuckyWeapon": false,
+          "IsPikohan": false,
+          "IsThrowingWeapon": false,
+          "IsThrowingBreakWeapon": true,
+          "ThrowRange": 20.0,
+          "DreadActor": "",
+          "ThroughActor": "",
+          "NPCWeaponType": "",
+          "IsNotOnTerrorHold": false,
+          "IsAsOffUnEquiped": false,
+          "ChemicalEnergyMax": 0,
+          "ChemicalEnergyAmountUsed": 0,
+          "ChemicalEnergyRecoverRate": 0.0,
+          "ChemicalEnergyRecoverInterval": 60,
+          "StickDamage": 0,
+          "ShootBeam": "",
+          "DropFromPorchRot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "SharpWeaponPer": 10.0,
+          "SharpWeaponAddAtkMin": 3,
+          "SharpWeaponAddAtkMax": 6,
+          "SharpWeaponAddLifeMin": 4,
+          "SharpWeaponAddLifeMax": 7,
+          "SharpWeaponAddCrit": false,
+          "SharpWeaponAddGuardMin": 0,
+          "SharpWeaponAddGuardMax": 0,
+          "PoweredSharpAddAtkMin": 7,
+          "PoweredSharpAddAtkMax": 10,
+          "PoweredSharpAddLifeMin": 8,
+          "PoweredSharpAddLifeMax": 18,
+          "PoweredSharpWeaponAddGuardMin": 0,
+          "PoweredSharpWeaponAddGuardMax": 0,
+          "PoweredSharpAddThrowMin": 1.0,
+          "PoweredSharpAddThrowMax": 1.0,
+          "PoweredSharpAddSpreadFire": false,
+          "PoweredSharpAddZoomRapid": false,
+          "PoweredSharpAddRapidFireMin": 1.1,
+          "PoweredSharpAddRapidFireMax": 1.3,
+          "PoweredSharpAddSurfMaster": false
+        },
+        "Bow": {
+          "QuiverName": "Weapon_Quiver_001",
+          "ArrowName": "",
+          "IsGuardPierce": false,
+          "ExtraDamageRatio": 1.0,
+          "BaseAttackPowerRatio": 1.0,
+          "IsLeadShot": false,
+          "LeadShotNum": 3,
+          "LeadShotAng": 13.0,
+          "LeadShotInterval": 1,
+          "IsRapidFire": false,
+          "RapidFireNum": 2,
+          "RapidFireInterval": 3,
+          "IsLongRange": false,
+          "ArrowFirstSpeed": 4.5,
+          "ArrowAcceleration": -0.1,
+          "ArrowStabilitySpeed": 3.0,
+          "ArrowFallAcceleration": -0.2,
+          "ArrowFallStabilitySpeed": 1.0,
+          "ArrowGravity": -9.8,
+          "PlayerHoldTransOffset": [
+            -0.1,
+            0.0,
+            0.05
+          ],
+          "PlayerHoldRotOffset": [
+            -3.0,
+            -55.0,
+            -3.0
+          ],
+          "PlayerEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "PlayerEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "SquatPlayerHoldTransAddOffset": [
+            -0.03,
+            -0.01,
+            0.0
+          ],
+          "SquatPlayerHoldRotAddOffset": [
+            0.0,
+            7.0,
+            -8.0
+          ],
+          "NPCHoldTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "NPCHoldRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "NPCEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "NPCEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "EnemyEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "EnemyEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "StandEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "StandEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ArrowChargeRate": 1.0,
+          "ArrowReloadRate": 1.0,
+          "WeaponSubType": "0"
+        },
+        "Item": {
+          "PlayerUseItem": false,
+          "SellingPrice": 10,
+          "BuyingPrice": 30,
+          "CreatingPrice": -1,
+          "StainColor": -1,
+          "SaleRevivalCount": -1,
+          "UseIconActorName": ""
+        },
+        "ClothReaction": {
+          "AtkCollidableName": "Collidable_Attack",
+          "AtkCollidableBoneName": "Attack",
+          "AtkCollidableSpeed": 6.0,
+          "AtkCollidableActiveTime": 0.5,
+          "AtkCollidableResetPos": [
+            0.0,
+            0.0,
+            2.0
+          ],
+          "GroundCollidableName": "Collidable_Ground_1",
+          "GroundCollidableBoneName": "Ground_1",
+          "GroundCollidableOffset": 0.05,
+          "UseGroundCollidableResetPos": false,
+          "GroundCollidableResetPos": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "GroundCollidableMoveSpeed": 300.0,
+          "WallCollidableName": "",
+          "WallCollidableBoneName": "",
+          "WallCollidableOffset": 0.05,
+          "PlayerCollidableName": "",
+          "PlayerCollidableBoneName": ""
+        },
+        "PictureBook": {
+          "LiveSpot1": -1,
+          "LiveSpot2": -1,
+          "SpecialDrop": -1
+        }
+      },
+      "lists": {}
+    }
+  },
+  "Weapon_Bow_013.gparamlist": {
+    "version": 0,
+    "type": "xml",
+    "param_root": {
+      "objects": {
+        "System": {
+          "SameGroupActorName": "",
+          "IsGetItemSelf": false
+        },
+        "General": {
+          "Speed": 1.0,
+          "Life": 35,
+          "IsLifeInfinite": false,
+          "ElectricalDischarge": 1.0,
+          "IsBurnOutBorn": false,
+          "BurnOutBornName": "",
+          "IsBurnOutBornIdent": false,
+          "ChangeDropTableName": ""
+        },
+        "Attack": {
+          "Power": 15,
+          "Impulse": 0,
+          "ImpulseLarge": 0,
+          "Range": 20.0,
+          "GuardBreakPower": 0,
+          "SpHitActor": "",
+          "SpHitTag": "",
+          "SpHitRatio": 2.0,
+          "SpWeakHitActor": "",
+          "PowerForPlayer": -1
+        },
+        "WeaponCommon": {
+          "PlayerEqScale": 1.0,
+          "EnemyEqScale": 1.4,
+          "GuardPower": 0,
+          "Rank": 1,
+          "IsHammer": false,
+          "IsWeakBreaker": false,
+          "IsBoomerang": false,
+          "IsBlunt": true,
+          "IsLuckyWeapon": false,
+          "IsPikohan": false,
+          "IsThrowingWeapon": false,
+          "IsThrowingBreakWeapon": true,
+          "ThrowRange": 20.0,
+          "DreadActor": "",
+          "ThroughActor": "",
+          "NPCWeaponType": "",
+          "IsNotOnTerrorHold": false,
+          "IsAsOffUnEquiped": false,
+          "ChemicalEnergyMax": 0,
+          "ChemicalEnergyAmountUsed": 0,
+          "ChemicalEnergyRecoverRate": 0.0,
+          "ChemicalEnergyRecoverInterval": 60,
+          "StickDamage": 0,
+          "ShootBeam": "",
+          "DropFromPorchRot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "SharpWeaponPer": 10.0,
+          "SharpWeaponAddAtkMin": 4,
+          "SharpWeaponAddAtkMax": 7,
+          "SharpWeaponAddLifeMin": 4,
+          "SharpWeaponAddLifeMax": 8,
+          "SharpWeaponAddCrit": false,
+          "SharpWeaponAddGuardMin": 0,
+          "SharpWeaponAddGuardMax": 0,
+          "PoweredSharpAddAtkMin": 8,
+          "PoweredSharpAddAtkMax": 12,
+          "PoweredSharpAddLifeMin": 9,
+          "PoweredSharpAddLifeMax": 20,
+          "PoweredSharpWeaponAddGuardMin": 0,
+          "PoweredSharpWeaponAddGuardMax": 0,
+          "PoweredSharpAddThrowMin": 1.0,
+          "PoweredSharpAddThrowMax": 1.0,
+          "PoweredSharpAddSpreadFire": true,
+          "PoweredSharpAddZoomRapid": false,
+          "PoweredSharpAddRapidFireMin": 1.1,
+          "PoweredSharpAddRapidFireMax": 1.3,
+          "PoweredSharpAddSurfMaster": false
+        },
+        "Bow": {
+          "QuiverName": "Weapon_Quiver_001",
+          "ArrowName": "",
+          "IsGuardPierce": false,
+          "ExtraDamageRatio": 0.6,
+          "BaseAttackPowerRatio": 0.6,
+          "IsLeadShot": true,
+          "LeadShotNum": 3,
+          "LeadShotAng": 3.0,
+          "LeadShotInterval": 1,
+          "IsRapidFire": false,
+          "RapidFireNum": 0,
+          "RapidFireInterval": 0,
+          "IsLongRange": false,
+          "ArrowFirstSpeed": 4.0,
+          "ArrowAcceleration": -0.1,
+          "ArrowStabilitySpeed": 3.0,
+          "ArrowFallAcceleration": -0.2,
+          "ArrowFallStabilitySpeed": 1.0,
+          "ArrowGravity": -9.8,
+          "PlayerHoldTransOffset": [
+            -0.1,
+            0.0,
+            0.04
+          ],
+          "PlayerHoldRotOffset": [
+            -3.0,
+            -55.0,
+            -3.0
+          ],
+          "PlayerEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "PlayerEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "SquatPlayerHoldTransAddOffset": [
+            -0.03,
+            0.0,
+            0.01
+          ],
+          "SquatPlayerHoldRotAddOffset": [
+            0.0,
+            8.0,
+            -8.0
+          ],
+          "NPCHoldTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "NPCHoldRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "NPCEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "NPCEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "EnemyEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "EnemyEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "StandEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "StandEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ArrowChargeRate": 1.6,
+          "ArrowReloadRate": 1.0,
+          "WeaponSubType": "0"
+        },
+        "Item": {
+          "PlayerUseItem": false,
+          "SellingPrice": 7,
+          "BuyingPrice": 30,
+          "CreatingPrice": -1,
+          "StainColor": -1,
+          "SaleRevivalCount": -1,
+          "UseIconActorName": ""
+        },
+        "ClothReaction": {
+          "AtkCollidableName": "Collidable_Attack",
+          "AtkCollidableBoneName": "Attack",
+          "AtkCollidableSpeed": 6.0,
+          "AtkCollidableActiveTime": 0.5,
+          "AtkCollidableResetPos": [
+            0.0,
+            0.0,
+            2.0
+          ],
+          "GroundCollidableName": "Collidable_Ground_1",
+          "GroundCollidableBoneName": "Ground_1",
+          "GroundCollidableOffset": 0.05,
+          "UseGroundCollidableResetPos": false,
+          "GroundCollidableResetPos": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "GroundCollidableMoveSpeed": 300.0,
+          "WallCollidableName": "",
+          "WallCollidableBoneName": "",
+          "WallCollidableOffset": 0.05,
+          "PlayerCollidableName": "",
+          "PlayerCollidableBoneName": ""
+        },
+        "PictureBook": {
+          "LiveSpot1": -1,
+          "LiveSpot2": -1,
+          "SpecialDrop": -1
+        }
+      },
+      "lists": {}
+    }
+  },
+  "Weapon_Bow_014.gparamlist": {
+    "version": 0,
+    "type": "xml",
+    "param_root": {
+      "objects": {
+        "System": {
+          "SameGroupActorName": "",
+          "IsGetItemSelf": false
+        },
+        "General": {
+          "Speed": 1.0,
+          "Life": 40,
+          "IsLifeInfinite": false,
+          "ElectricalDischarge": 1.0,
+          "IsBurnOutBorn": false,
+          "BurnOutBornName": "",
+          "IsBurnOutBornIdent": false,
+          "ChangeDropTableName": ""
+        },
+        "Attack": {
+          "Power": 15,
+          "Impulse": 0,
+          "ImpulseLarge": 0,
+          "Range": 20.0,
+          "GuardBreakPower": 0,
+          "SpHitActor": "",
+          "SpHitTag": "",
+          "SpHitRatio": 2.0,
+          "SpWeakHitActor": "",
+          "PowerForPlayer": -1
+        },
+        "WeaponCommon": {
+          "PlayerEqScale": 1.0,
+          "EnemyEqScale": 1.4,
+          "GuardPower": 0,
+          "Rank": 7,
+          "IsHammer": false,
+          "IsWeakBreaker": false,
+          "IsBoomerang": false,
+          "IsBlunt": true,
+          "IsLuckyWeapon": false,
+          "IsPikohan": false,
+          "IsThrowingWeapon": false,
+          "IsThrowingBreakWeapon": true,
+          "ThrowRange": 20.0,
+          "DreadActor": "",
+          "ThroughActor": "",
+          "NPCWeaponType": "",
+          "IsNotOnTerrorHold": false,
+          "IsAsOffUnEquiped": false,
+          "ChemicalEnergyMax": 0,
+          "ChemicalEnergyAmountUsed": 0,
+          "ChemicalEnergyRecoverRate": 0.0,
+          "ChemicalEnergyRecoverInterval": 60,
+          "StickDamage": 0,
+          "ShootBeam": "",
+          "DropFromPorchRot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "SharpWeaponPer": 10.0,
+          "SharpWeaponAddAtkMin": 4,
+          "SharpWeaponAddAtkMax": 7,
+          "SharpWeaponAddLifeMin": 4,
+          "SharpWeaponAddLifeMax": 8,
+          "SharpWeaponAddCrit": false,
+          "SharpWeaponAddGuardMin": 0,
+          "SharpWeaponAddGuardMax": 0,
+          "PoweredSharpAddAtkMin": 8,
+          "PoweredSharpAddAtkMax": 12,
+          "PoweredSharpAddLifeMin": 9,
+          "PoweredSharpAddLifeMax": 20,
+          "PoweredSharpWeaponAddGuardMin": 0,
+          "PoweredSharpWeaponAddGuardMax": 0,
+          "PoweredSharpAddThrowMin": 1.0,
+          "PoweredSharpAddThrowMax": 1.0,
+          "PoweredSharpAddSpreadFire": false,
+          "PoweredSharpAddZoomRapid": false,
+          "PoweredSharpAddRapidFireMin": 1.1,
+          "PoweredSharpAddRapidFireMax": 1.3,
+          "PoweredSharpAddSurfMaster": false
+        },
+        "Bow": {
+          "QuiverName": "Weapon_Quiver_001",
+          "ArrowName": "",
+          "IsGuardPierce": false,
+          "ExtraDamageRatio": 1.0,
+          "BaseAttackPowerRatio": 1.0,
+          "IsLeadShot": false,
+          "LeadShotNum": 0,
+          "LeadShotAng": 45.0,
+          "LeadShotInterval": 0,
+          "IsRapidFire": false,
+          "RapidFireNum": 0,
+          "RapidFireInterval": 0,
+          "IsLongRange": false,
+          "ArrowFirstSpeed": 4.5,
+          "ArrowAcceleration": -0.1,
+          "ArrowStabilitySpeed": 3.0,
+          "ArrowFallAcceleration": -0.2,
+          "ArrowFallStabilitySpeed": 1.0,
+          "ArrowGravity": -7.0,
+          "PlayerHoldTransOffset": [
+            -0.1,
+            -0.01,
+            0.04
+          ],
+          "PlayerHoldRotOffset": [
+            -3.0,
+            -55.0,
+            -3.0
+          ],
+          "PlayerEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "PlayerEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "SquatPlayerHoldTransAddOffset": [
+            -0.02,
+            0.0,
+            0.0
+          ],
+          "SquatPlayerHoldRotAddOffset": [
+            0.0,
+            8.0,
+            -10.0
+          ],
+          "NPCHoldTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "NPCHoldRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "NPCEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "NPCEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "EnemyEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "EnemyEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "StandEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "StandEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ArrowChargeRate": 1.0,
+          "ArrowReloadRate": 1.0,
+          "WeaponSubType": "0"
+        },
+        "Item": {
+          "PlayerUseItem": false,
+          "SellingPrice": 16,
+          "BuyingPrice": 65,
+          "CreatingPrice": -1,
+          "StainColor": -1,
+          "SaleRevivalCount": -1,
+          "UseIconActorName": ""
+        },
+        "ClothReaction": {
+          "AtkCollidableName": "Collidable_Attack",
+          "AtkCollidableBoneName": "Attack",
+          "AtkCollidableSpeed": 6.0,
+          "AtkCollidableActiveTime": 0.5,
+          "AtkCollidableResetPos": [
+            0.0,
+            0.0,
+            2.0
+          ],
+          "GroundCollidableName": "Collidable_Ground_1",
+          "GroundCollidableBoneName": "Ground_1",
+          "GroundCollidableOffset": 0.05,
+          "UseGroundCollidableResetPos": false,
+          "GroundCollidableResetPos": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "GroundCollidableMoveSpeed": 300.0,
+          "WallCollidableName": "",
+          "WallCollidableBoneName": "",
+          "WallCollidableOffset": 0.05,
+          "PlayerCollidableName": "",
+          "PlayerCollidableBoneName": ""
+        },
+        "PictureBook": {
+          "LiveSpot1": -1,
+          "LiveSpot2": -1,
+          "SpecialDrop": -1
+        }
+      },
+      "lists": {}
+    }
+  },
+  "Weapon_Bow_015.gparamlist": {
+    "version": 0,
+    "type": "xml",
+    "param_root": {
+      "objects": {
+        "System": {
+          "SameGroupActorName": "",
+          "IsGetItemSelf": false
+        },
+        "General": {
+          "Speed": 1.0,
+          "Life": 60,
+          "IsLifeInfinite": false,
+          "ElectricalDischarge": 1.0,
+          "IsBurnOutBorn": false,
+          "BurnOutBornName": "",
+          "IsBurnOutBornIdent": false,
+          "ChangeDropTableName": ""
+        },
+        "Attack": {
+          "Power": 14,
+          "Impulse": 0,
+          "ImpulseLarge": 0,
+          "Range": 40.0,
+          "GuardBreakPower": 0,
+          "SpHitActor": "",
+          "SpHitTag": "",
+          "SpHitRatio": 2.0,
+          "SpWeakHitActor": "",
+          "PowerForPlayer": -1
+        },
+        "WeaponCommon": {
+          "PlayerEqScale": 1.0,
+          "EnemyEqScale": 1.4,
+          "GuardPower": 0,
+          "Rank": 6,
+          "IsHammer": false,
+          "IsWeakBreaker": false,
+          "IsBoomerang": false,
+          "IsBlunt": true,
+          "IsLuckyWeapon": false,
+          "IsPikohan": false,
+          "IsThrowingWeapon": false,
+          "IsThrowingBreakWeapon": true,
+          "ThrowRange": 20.0,
+          "DreadActor": "",
+          "ThroughActor": "",
+          "NPCWeaponType": "",
+          "IsNotOnTerrorHold": false,
+          "IsAsOffUnEquiped": false,
+          "ChemicalEnergyMax": 0,
+          "ChemicalEnergyAmountUsed": 0,
+          "ChemicalEnergyRecoverRate": 0.0,
+          "ChemicalEnergyRecoverInterval": 60,
+          "StickDamage": 0,
+          "ShootBeam": "",
+          "DropFromPorchRot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "SharpWeaponPer": 10.0,
+          "SharpWeaponAddAtkMin": 3,
+          "SharpWeaponAddAtkMax": 7,
+          "SharpWeaponAddLifeMin": 6,
+          "SharpWeaponAddLifeMax": 12,
+          "SharpWeaponAddCrit": false,
+          "SharpWeaponAddGuardMin": 0,
+          "SharpWeaponAddGuardMax": 0,
+          "PoweredSharpAddAtkMin": 8,
+          "PoweredSharpAddAtkMax": 12,
+          "PoweredSharpAddLifeMin": 13,
+          "PoweredSharpAddLifeMax": 30,
+          "PoweredSharpWeaponAddGuardMin": 0,
+          "PoweredSharpWeaponAddGuardMax": 0,
+          "PoweredSharpAddThrowMin": 1.0,
+          "PoweredSharpAddThrowMax": 1.0,
+          "PoweredSharpAddSpreadFire": false,
+          "PoweredSharpAddZoomRapid": false,
+          "PoweredSharpAddRapidFireMin": 1.1,
+          "PoweredSharpAddRapidFireMax": 1.3,
+          "PoweredSharpAddSurfMaster": false
+        },
+        "Bow": {
+          "QuiverName": "Weapon_Quiver_001",
+          "ArrowName": "",
+          "IsGuardPierce": false,
+          "ExtraDamageRatio": 1.0,
+          "BaseAttackPowerRatio": 1.0,
+          "IsLeadShot": false,
+          "LeadShotNum": 0,
+          "LeadShotAng": 45.0,
+          "LeadShotInterval": 0,
+          "IsRapidFire": false,
+          "RapidFireNum": 0,
+          "RapidFireInterval": 0,
+          "IsLongRange": true,
+          "ArrowFirstSpeed": 4.5,
+          "ArrowAcceleration": -0.1,
+          "ArrowStabilitySpeed": 3.0,
+          "ArrowFallAcceleration": -0.2,
+          "ArrowFallStabilitySpeed": 1.0,
+          "ArrowGravity": -9.8,
+          "PlayerHoldTransOffset": [
+            -0.1,
+            -0.01,
+            0.04
+          ],
+          "PlayerHoldRotOffset": [
+            -3.0,
+            -55.0,
+            -3.0
+          ],
+          "PlayerEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "PlayerEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "SquatPlayerHoldTransAddOffset": [
+            -0.03,
+            0.0,
+            0.0
+          ],
+          "SquatPlayerHoldRotAddOffset": [
+            0.0,
+            5.0,
+            -10.0
+          ],
+          "NPCHoldTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "NPCHoldRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "NPCEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "NPCEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "EnemyEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "EnemyEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "StandEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "StandEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ArrowChargeRate": 1.0,
+          "ArrowReloadRate": 1.0,
+          "WeaponSubType": "0"
+        },
+        "Item": {
+          "PlayerUseItem": false,
+          "SellingPrice": 21,
+          "BuyingPrice": 85,
+          "CreatingPrice": -1,
+          "StainColor": -1,
+          "SaleRevivalCount": -1,
+          "UseIconActorName": ""
+        },
+        "ClothReaction": {
+          "AtkCollidableName": "Collidable_Attack",
+          "AtkCollidableBoneName": "Attack",
+          "AtkCollidableSpeed": 6.0,
+          "AtkCollidableActiveTime": 0.5,
+          "AtkCollidableResetPos": [
+            0.0,
+            0.0,
+            2.0
+          ],
+          "GroundCollidableName": "Collidable_Ground_1",
+          "GroundCollidableBoneName": "Ground_1",
+          "GroundCollidableOffset": 0.05,
+          "UseGroundCollidableResetPos": false,
+          "GroundCollidableResetPos": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "GroundCollidableMoveSpeed": 300.0,
+          "WallCollidableName": "",
+          "WallCollidableBoneName": "",
+          "WallCollidableOffset": 0.05,
+          "PlayerCollidableName": "",
+          "PlayerCollidableBoneName": ""
+        },
+        "PictureBook": {
+          "LiveSpot1": -1,
+          "LiveSpot2": -1,
+          "SpecialDrop": -1
+        }
+      },
+      "lists": {}
+    }
+  },
+  "Weapon_Bow_016.gparamlist": {
+    "version": 0,
+    "type": "xml",
+    "param_root": {
+      "objects": {
+        "System": {
+          "SameGroupActorName": "",
+          "IsGetItemSelf": false
+        },
+        "General": {
+          "Speed": 1.0,
+          "Life": 30,
+          "IsLifeInfinite": false,
+          "ElectricalDischarge": 1.0,
+          "IsBurnOutBorn": false,
+          "BurnOutBornName": "",
+          "IsBurnOutBornIdent": false,
+          "ChangeDropTableName": ""
+        },
+        "Attack": {
+          "Power": 9,
+          "Impulse": 0,
+          "ImpulseLarge": 0,
+          "Range": 40.0,
+          "GuardBreakPower": 0,
+          "SpHitActor": "",
+          "SpHitTag": "",
+          "SpHitRatio": 2.0,
+          "SpWeakHitActor": "",
+          "PowerForPlayer": -1
+        },
+        "WeaponCommon": {
+          "PlayerEqScale": 1.0,
+          "EnemyEqScale": 1.4,
+          "GuardPower": 0,
+          "Rank": 3,
+          "IsHammer": false,
+          "IsWeakBreaker": false,
+          "IsBoomerang": false,
+          "IsBlunt": true,
+          "IsLuckyWeapon": false,
+          "IsPikohan": false,
+          "IsThrowingWeapon": false,
+          "IsThrowingBreakWeapon": true,
+          "ThrowRange": 20.0,
+          "DreadActor": "",
+          "ThroughActor": "",
+          "NPCWeaponType": "",
+          "IsNotOnTerrorHold": false,
+          "IsAsOffUnEquiped": false,
+          "ChemicalEnergyMax": 0,
+          "ChemicalEnergyAmountUsed": 0,
+          "ChemicalEnergyRecoverRate": 0.0,
+          "ChemicalEnergyRecoverInterval": 60,
+          "StickDamage": 0,
+          "ShootBeam": "",
+          "DropFromPorchRot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "SharpWeaponPer": 10.0,
+          "SharpWeaponAddAtkMin": 6,
+          "SharpWeaponAddAtkMax": 9,
+          "SharpWeaponAddLifeMin": 3,
+          "SharpWeaponAddLifeMax": 6,
+          "SharpWeaponAddCrit": false,
+          "SharpWeaponAddGuardMin": 0,
+          "SharpWeaponAddGuardMax": 0,
+          "PoweredSharpAddAtkMin": 10,
+          "PoweredSharpAddAtkMax": 15,
+          "PoweredSharpAddLifeMin": 7,
+          "PoweredSharpAddLifeMax": 15,
+          "PoweredSharpWeaponAddGuardMin": 0,
+          "PoweredSharpWeaponAddGuardMax": 0,
+          "PoweredSharpAddThrowMin": 1.0,
+          "PoweredSharpAddThrowMax": 1.0,
+          "PoweredSharpAddSpreadFire": false,
+          "PoweredSharpAddZoomRapid": false,
+          "PoweredSharpAddRapidFireMin": 1.1,
+          "PoweredSharpAddRapidFireMax": 1.3,
+          "PoweredSharpAddSurfMaster": false
+        },
+        "Bow": {
+          "QuiverName": "Weapon_Quiver_001",
+          "ArrowName": "",
+          "IsGuardPierce": false,
+          "ExtraDamageRatio": 1.0,
+          "BaseAttackPowerRatio": 1.0,
+          "IsLeadShot": false,
+          "LeadShotNum": 0,
+          "LeadShotAng": 45.0,
+          "LeadShotInterval": 0,
+          "IsRapidFire": false,
+          "RapidFireNum": 0,
+          "RapidFireInterval": 0,
+          "IsLongRange": false,
+          "ArrowFirstSpeed": 4.5,
+          "ArrowAcceleration": -0.1,
+          "ArrowStabilitySpeed": 3.0,
+          "ArrowFallAcceleration": -0.2,
+          "ArrowFallStabilitySpeed": 1.0,
+          "ArrowGravity": -9.8,
+          "PlayerHoldTransOffset": [
+            -0.1,
+            0.01,
+            0.05
+          ],
+          "PlayerHoldRotOffset": [
+            -3.0,
+            -52.0,
+            -3.0
+          ],
+          "PlayerEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "PlayerEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "SquatPlayerHoldTransAddOffset": [
+            -0.04,
+            -0.01,
+            0.0
+          ],
+          "SquatPlayerHoldRotAddOffset": [
+            0.0,
+            6.0,
+            -3.0
+          ],
+          "NPCHoldTransOffset": [
+            0.0,
+            0.0,
+            0.05
+          ],
+          "NPCHoldRotOffset": [
+            0.0,
+            -55.0,
+            0.0
+          ],
+          "NPCEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "NPCEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "EnemyEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "EnemyEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "StandEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "StandEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ArrowChargeRate": 1.3,
+          "ArrowReloadRate": 1.0,
+          "WeaponSubType": "0"
+        },
+        "Item": {
+          "PlayerUseItem": false,
+          "SellingPrice": 10,
+          "BuyingPrice": 40,
+          "CreatingPrice": -1,
+          "StainColor": -1,
+          "SaleRevivalCount": -1,
+          "UseIconActorName": ""
+        },
+        "ClothReaction": {
+          "AtkCollidableName": "Collidable_Attack",
+          "AtkCollidableBoneName": "Attack",
+          "AtkCollidableSpeed": 6.0,
+          "AtkCollidableActiveTime": 0.5,
+          "AtkCollidableResetPos": [
+            0.0,
+            0.0,
+            2.0
+          ],
+          "GroundCollidableName": "Collidable_Ground_1",
+          "GroundCollidableBoneName": "Ground_1",
+          "GroundCollidableOffset": 0.05,
+          "UseGroundCollidableResetPos": false,
+          "GroundCollidableResetPos": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "GroundCollidableMoveSpeed": 300.0,
+          "WallCollidableName": "",
+          "WallCollidableBoneName": "",
+          "WallCollidableOffset": 0.05,
+          "PlayerCollidableName": "",
+          "PlayerCollidableBoneName": ""
+        },
+        "PictureBook": {
+          "LiveSpot1": -1,
+          "LiveSpot2": -1,
+          "SpecialDrop": -1
+        }
+      },
+      "lists": {}
+    }
+  },
+  "Weapon_Bow_017.gparamlist": {
+    "version": 0,
+    "type": "xml",
+    "param_root": {
+      "objects": {
+        "System": {
+          "SameGroupActorName": "",
+          "IsGetItemSelf": false
+        },
+        "General": {
+          "Speed": 1.0,
+          "Life": 50,
+          "IsLifeInfinite": false,
+          "ElectricalDischarge": 1.0,
+          "IsBurnOutBorn": false,
+          "BurnOutBornName": "",
+          "IsBurnOutBornIdent": false,
+          "ChangeDropTableName": ""
+        },
+        "Attack": {
+          "Power": 20,
+          "Impulse": 0,
+          "ImpulseLarge": 0,
+          "Range": 40.0,
+          "GuardBreakPower": 0,
+          "SpHitActor": "",
+          "SpHitTag": "",
+          "SpHitRatio": 2.0,
+          "SpWeakHitActor": "",
+          "PowerForPlayer": -1
+        },
+        "WeaponCommon": {
+          "PlayerEqScale": 1.0,
+          "EnemyEqScale": 1.4,
+          "GuardPower": 0,
+          "Rank": 8,
+          "IsHammer": false,
+          "IsWeakBreaker": false,
+          "IsBoomerang": false,
+          "IsBlunt": true,
+          "IsLuckyWeapon": false,
+          "IsPikohan": false,
+          "IsThrowingWeapon": false,
+          "IsThrowingBreakWeapon": true,
+          "ThrowRange": 20.0,
+          "DreadActor": "",
+          "ThroughActor": "",
+          "NPCWeaponType": "",
+          "IsNotOnTerrorHold": false,
+          "IsAsOffUnEquiped": false,
+          "ChemicalEnergyMax": 0,
+          "ChemicalEnergyAmountUsed": 0,
+          "ChemicalEnergyRecoverRate": 0.0,
+          "ChemicalEnergyRecoverInterval": 60,
+          "StickDamage": 0,
+          "ShootBeam": "",
+          "DropFromPorchRot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "SharpWeaponPer": 10.0,
+          "SharpWeaponAddAtkMin": 5,
+          "SharpWeaponAddAtkMax": 9,
+          "SharpWeaponAddLifeMin": 6,
+          "SharpWeaponAddLifeMax": 11,
+          "SharpWeaponAddCrit": false,
+          "SharpWeaponAddGuardMin": 0,
+          "SharpWeaponAddGuardMax": 0,
+          "PoweredSharpAddAtkMin": 10,
+          "PoweredSharpAddAtkMax": 16,
+          "PoweredSharpAddLifeMin": 12,
+          "PoweredSharpAddLifeMax": 28,
+          "PoweredSharpWeaponAddGuardMin": 0,
+          "PoweredSharpWeaponAddGuardMax": 0,
+          "PoweredSharpAddThrowMin": 1.0,
+          "PoweredSharpAddThrowMax": 1.0,
+          "PoweredSharpAddSpreadFire": false,
+          "PoweredSharpAddZoomRapid": false,
+          "PoweredSharpAddRapidFireMin": 1.1,
+          "PoweredSharpAddRapidFireMax": 1.3,
+          "PoweredSharpAddSurfMaster": false
+        },
+        "Bow": {
+          "QuiverName": "Weapon_Quiver_001",
+          "ArrowName": "",
+          "IsGuardPierce": false,
+          "ExtraDamageRatio": 1.0,
+          "BaseAttackPowerRatio": 1.0,
+          "IsLeadShot": false,
+          "LeadShotNum": 3,
+          "LeadShotAng": 13.0,
+          "LeadShotInterval": 1,
+          "IsRapidFire": false,
+          "RapidFireNum": 0,
+          "RapidFireInterval": 0,
+          "IsLongRange": false,
+          "ArrowFirstSpeed": 4.5,
+          "ArrowAcceleration": -0.1,
+          "ArrowStabilitySpeed": 3.0,
+          "ArrowFallAcceleration": -0.2,
+          "ArrowFallStabilitySpeed": 1.0,
+          "ArrowGravity": -9.8,
+          "PlayerHoldTransOffset": [
+            -0.1,
+            0.0,
+            0.05
+          ],
+          "PlayerHoldRotOffset": [
+            -3.0,
+            -52.0,
+            -3.0
+          ],
+          "PlayerEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "PlayerEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "SquatPlayerHoldTransAddOffset": [
+            -0.03,
+            0.0,
+            0.0
+          ],
+          "SquatPlayerHoldRotAddOffset": [
+            0.0,
+            7.0,
+            -3.0
+          ],
+          "NPCHoldTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "NPCHoldRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "NPCEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "NPCEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "EnemyEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "EnemyEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "StandEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "StandEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ArrowChargeRate": 1.6,
+          "ArrowReloadRate": 1.0,
+          "WeaponSubType": "0"
+        },
+        "Item": {
+          "PlayerUseItem": false,
+          "SellingPrice": 48,
+          "BuyingPrice": 190,
+          "CreatingPrice": -1,
+          "StainColor": -1,
+          "SaleRevivalCount": -1,
+          "UseIconActorName": ""
+        },
+        "ClothReaction": {
+          "AtkCollidableName": "Collidable_Attack",
+          "AtkCollidableBoneName": "Attack",
+          "AtkCollidableSpeed": 6.0,
+          "AtkCollidableActiveTime": 0.5,
+          "AtkCollidableResetPos": [
+            0.0,
+            0.0,
+            2.0
+          ],
+          "GroundCollidableName": "Collidable_Ground_1",
+          "GroundCollidableBoneName": "Ground_1",
+          "GroundCollidableOffset": 0.05,
+          "UseGroundCollidableResetPos": false,
+          "GroundCollidableResetPos": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "GroundCollidableMoveSpeed": 300.0,
+          "WallCollidableName": "",
+          "WallCollidableBoneName": "",
+          "WallCollidableOffset": 0.05,
+          "PlayerCollidableName": "",
+          "PlayerCollidableBoneName": ""
+        },
+        "PictureBook": {
+          "LiveSpot1": -1,
+          "LiveSpot2": -1,
+          "SpecialDrop": -1
+        }
+      },
+      "lists": {}
+    }
+  },
+  "Weapon_Bow_023.gparamlist": {
+    "version": 0,
+    "type": "xml",
+    "param_root": {
+      "objects": {
+        "System": {
+          "SameGroupActorName": "",
+          "IsGetItemSelf": false
+        },
+        "General": {
+          "Speed": 1.0,
+          "Life": 120,
+          "IsLifeInfinite": false,
+          "ElectricalDischarge": 1.0,
+          "IsBurnOutBorn": false,
+          "BurnOutBornName": "",
+          "IsBurnOutBornIdent": false,
+          "ChangeDropTableName": ""
+        },
+        "Attack": {
+          "Power": 44,
+          "Impulse": 0,
+          "ImpulseLarge": 0,
+          "Range": 40.0,
+          "GuardBreakPower": 0,
+          "SpHitActor": "",
+          "SpHitTag": "EffectiveAncientArrow",
+          "SpHitRatio": 1.5,
+          "SpWeakHitActor": "",
+          "PowerForPlayer": -1
+        },
+        "WeaponCommon": {
+          "PlayerEqScale": 1.0,
+          "EnemyEqScale": 1.4,
+          "GuardPower": 0,
+          "Rank": 1,
+          "IsHammer": false,
+          "IsWeakBreaker": false,
+          "IsBoomerang": false,
+          "IsBlunt": true,
+          "IsLuckyWeapon": false,
+          "IsPikohan": false,
+          "IsThrowingWeapon": false,
+          "IsThrowingBreakWeapon": true,
+          "ThrowRange": 20.0,
+          "DreadActor": "",
+          "ThroughActor": "",
+          "NPCWeaponType": "",
+          "IsNotOnTerrorHold": false,
+          "IsAsOffUnEquiped": false,
+          "ChemicalEnergyMax": 0,
+          "ChemicalEnergyAmountUsed": 0,
+          "ChemicalEnergyRecoverRate": 0.0,
+          "ChemicalEnergyRecoverInterval": 60,
+          "StickDamage": 0,
+          "ShootBeam": "",
+          "DropFromPorchRot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "SharpWeaponPer": 10.0,
+          "SharpWeaponAddAtkMin": 5,
+          "SharpWeaponAddAtkMax": 10,
+          "SharpWeaponAddLifeMin": 12,
+          "SharpWeaponAddLifeMax": 24,
+          "SharpWeaponAddCrit": false,
+          "SharpWeaponAddGuardMin": 0,
+          "SharpWeaponAddGuardMax": 0,
+          "PoweredSharpAddAtkMin": 11,
+          "PoweredSharpAddAtkMax": 18,
+          "PoweredSharpAddLifeMin": 25,
+          "PoweredSharpAddLifeMax": 60,
+          "PoweredSharpWeaponAddGuardMin": 0,
+          "PoweredSharpWeaponAddGuardMax": 0,
+          "PoweredSharpAddThrowMin": 1.0,
+          "PoweredSharpAddThrowMax": 1.0,
+          "PoweredSharpAddSpreadFire": false,
+          "PoweredSharpAddZoomRapid": false,
+          "PoweredSharpAddRapidFireMin": 1.1,
+          "PoweredSharpAddRapidFireMax": 1.3,
+          "PoweredSharpAddSurfMaster": false
+        },
+        "Bow": {
+          "QuiverName": "Weapon_Quiver_001",
+          "ArrowName": "",
+          "IsGuardPierce": true,
+          "ExtraDamageRatio": 1.0,
+          "BaseAttackPowerRatio": 1.0,
+          "IsLeadShot": false,
+          "LeadShotNum": 0,
+          "LeadShotAng": 45.0,
+          "LeadShotInterval": 0,
+          "IsRapidFire": false,
+          "RapidFireNum": 0,
+          "RapidFireInterval": 0,
+          "IsLongRange": false,
+          "ArrowFirstSpeed": 4.5,
+          "ArrowAcceleration": -0.1,
+          "ArrowStabilitySpeed": 4.0,
+          "ArrowFallAcceleration": -0.2,
+          "ArrowFallStabilitySpeed": 1.0,
+          "ArrowGravity": -2.8,
+          "PlayerHoldTransOffset": [
+            -0.1,
+            0.0,
+            0.06
+          ],
+          "PlayerHoldRotOffset": [
+            -3.0,
+            -50.0,
+            -3.0
+          ],
+          "PlayerEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "PlayerEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "SquatPlayerHoldTransAddOffset": [
+            -0.03,
+            0.0,
+            0.0
+          ],
+          "SquatPlayerHoldRotAddOffset": [
+            0.0,
+            7.0,
+            -8.0
+          ],
+          "NPCHoldTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "NPCHoldRotOffset": [
+            30.0,
+            -80.0,
+            -20.0
+          ],
+          "NPCEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "NPCEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "EnemyEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "EnemyEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "StandEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "StandEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ArrowChargeRate": 0.7,
+          "ArrowReloadRate": 1.0,
+          "WeaponSubType": "0"
+        },
+        "Item": {
+          "PlayerUseItem": false,
+          "SellingPrice": 5,
+          "BuyingPrice": 20,
+          "CreatingPrice": 1000,
+          "StainColor": -1,
+          "SaleRevivalCount": -1,
+          "UseIconActorName": ""
+        },
+        "ClothReaction": {
+          "AtkCollidableName": "Collidable_Attack",
+          "AtkCollidableBoneName": "Attack",
+          "AtkCollidableSpeed": 6.0,
+          "AtkCollidableActiveTime": 0.5,
+          "AtkCollidableResetPos": [
+            0.0,
+            0.0,
+            2.0
+          ],
+          "GroundCollidableName": "Collidable_Ground_1",
+          "GroundCollidableBoneName": "Ground_1",
+          "GroundCollidableOffset": 0.05,
+          "UseGroundCollidableResetPos": false,
+          "GroundCollidableResetPos": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "GroundCollidableMoveSpeed": 300.0,
+          "WallCollidableName": "",
+          "WallCollidableBoneName": "",
+          "WallCollidableOffset": 0.05,
+          "PlayerCollidableName": "",
+          "PlayerCollidableBoneName": ""
+        },
+        "PictureBook": {
+          "LiveSpot1": 21,
+          "LiveSpot2": -1,
+          "SpecialDrop": 26
+        }
+      },
+      "lists": {}
+    }
+  },
+  "Weapon_Bow_026.gparamlist": {
+    "version": 0,
+    "type": "xml",
+    "param_root": {
+      "objects": {
+        "System": {
+          "SameGroupActorName": "",
+          "IsGetItemSelf": false
+        },
+        "General": {
+          "Speed": 1.0,
+          "Life": 35,
+          "IsLifeInfinite": false,
+          "ElectricalDischarge": 1.0,
+          "IsBurnOutBorn": false,
+          "BurnOutBornName": "",
+          "IsBurnOutBornIdent": false,
+          "ChangeDropTableName": ""
+        },
+        "Attack": {
+          "Power": 20,
+          "Impulse": 0,
+          "ImpulseLarge": 0,
+          "Range": 20.0,
+          "GuardBreakPower": 0,
+          "SpHitActor": "",
+          "SpHitTag": "",
+          "SpHitRatio": 2.0,
+          "SpWeakHitActor": "",
+          "PowerForPlayer": -1
+        },
+        "WeaponCommon": {
+          "PlayerEqScale": 1.0,
+          "EnemyEqScale": 1.4,
+          "GuardPower": 0,
+          "Rank": 0,
+          "IsHammer": false,
+          "IsWeakBreaker": false,
+          "IsBoomerang": false,
+          "IsBlunt": true,
+          "IsLuckyWeapon": false,
+          "IsPikohan": false,
+          "IsThrowingWeapon": false,
+          "IsThrowingBreakWeapon": true,
+          "ThrowRange": 20.0,
+          "DreadActor": "",
+          "ThroughActor": "",
+          "NPCWeaponType": "",
+          "IsNotOnTerrorHold": false,
+          "IsAsOffUnEquiped": false,
+          "ChemicalEnergyMax": 0,
+          "ChemicalEnergyAmountUsed": 0,
+          "ChemicalEnergyRecoverRate": 0.0,
+          "ChemicalEnergyRecoverInterval": 60,
+          "StickDamage": 0,
+          "ShootBeam": "",
+          "DropFromPorchRot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "SharpWeaponPer": 10.0,
+          "SharpWeaponAddAtkMin": 3,
+          "SharpWeaponAddAtkMax": 6,
+          "SharpWeaponAddLifeMin": 5,
+          "SharpWeaponAddLifeMax": 9,
+          "SharpWeaponAddCrit": false,
+          "SharpWeaponAddGuardMin": 0,
+          "SharpWeaponAddGuardMax": 0,
+          "PoweredSharpAddAtkMin": 7,
+          "PoweredSharpAddAtkMax": 11,
+          "PoweredSharpAddLifeMin": 10,
+          "PoweredSharpAddLifeMax": 23,
+          "PoweredSharpWeaponAddGuardMin": 0,
+          "PoweredSharpWeaponAddGuardMax": 0,
+          "PoweredSharpAddThrowMin": 1.0,
+          "PoweredSharpAddThrowMax": 1.0,
+          "PoweredSharpAddSpreadFire": true,
+          "PoweredSharpAddZoomRapid": false,
+          "PoweredSharpAddRapidFireMin": 1.1,
+          "PoweredSharpAddRapidFireMax": 1.3,
+          "PoweredSharpAddSurfMaster": false
+        },
+        "Bow": {
+          "QuiverName": "Weapon_Quiver_001",
+          "ArrowName": "",
+          "IsGuardPierce": false,
+          "ExtraDamageRatio": 0.6,
+          "BaseAttackPowerRatio": 0.6,
+          "IsLeadShot": true,
+          "LeadShotNum": 3,
+          "LeadShotAng": 3.0,
+          "LeadShotInterval": 1,
+          "IsRapidFire": false,
+          "RapidFireNum": 0,
+          "RapidFireInterval": 0,
+          "IsLongRange": false,
+          "ArrowFirstSpeed": 4.5,
+          "ArrowAcceleration": -0.1,
+          "ArrowStabilitySpeed": 3.0,
+          "ArrowFallAcceleration": -0.2,
+          "ArrowFallStabilitySpeed": 1.0,
+          "ArrowGravity": -9.8,
+          "PlayerHoldTransOffset": [
+            -0.1,
+            0.0,
+            0.06
+          ],
+          "PlayerHoldRotOffset": [
+            0.0,
+            -55.0,
+            -8.0
+          ],
+          "PlayerEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "PlayerEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "SquatPlayerHoldTransAddOffset": [
+            -0.03,
+            -0.03,
+            0.0
+          ],
+          "SquatPlayerHoldRotAddOffset": [
+            0.0,
+            7.0,
+            -8.0
+          ],
+          "NPCHoldTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "NPCHoldRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "NPCEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "NPCEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "EnemyEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "EnemyEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "StandEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "StandEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ArrowChargeRate": 1.0,
+          "ArrowReloadRate": 1.0,
+          "WeaponSubType": "0"
+        },
+        "Item": {
+          "PlayerUseItem": false,
+          "SellingPrice": 35,
+          "BuyingPrice": 105,
+          "CreatingPrice": -1,
+          "StainColor": -1,
+          "SaleRevivalCount": -1,
+          "UseIconActorName": ""
+        },
+        "ClothReaction": {
+          "AtkCollidableName": "Collidable_Attack",
+          "AtkCollidableBoneName": "Attack",
+          "AtkCollidableSpeed": 6.0,
+          "AtkCollidableActiveTime": 0.5,
+          "AtkCollidableResetPos": [
+            0.0,
+            0.0,
+            2.0
+          ],
+          "GroundCollidableName": "Collidable_Ground_1",
+          "GroundCollidableBoneName": "Ground_1",
+          "GroundCollidableOffset": 0.05,
+          "UseGroundCollidableResetPos": false,
+          "GroundCollidableResetPos": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "GroundCollidableMoveSpeed": 300.0,
+          "WallCollidableName": "",
+          "WallCollidableBoneName": "",
+          "WallCollidableOffset": 0.05,
+          "PlayerCollidableName": "",
+          "PlayerCollidableBoneName": ""
+        },
+        "PictureBook": {
+          "LiveSpot1": -1,
+          "LiveSpot2": -1,
+          "SpecialDrop": -1
+        }
+      },
+      "lists": {}
+    }
+  },
+  "Weapon_Bow_027.gparamlist": {
+    "version": 0,
+    "type": "xml",
+    "param_root": {
+      "objects": {
+        "System": {
+          "SameGroupActorName": "",
+          "IsGetItemSelf": false
+        },
+        "General": {
+          "Speed": 1.0,
+          "Life": 30,
+          "IsLifeInfinite": false,
+          "ElectricalDischarge": 1.0,
+          "IsBurnOutBorn": false,
+          "BurnOutBornName": "",
+          "IsBurnOutBornIdent": false,
+          "ChangeDropTableName": ""
+        },
+        "Attack": {
+          "Power": 24,
+          "Impulse": 0,
+          "ImpulseLarge": 0,
+          "Range": 20.0,
+          "GuardBreakPower": 0,
+          "SpHitActor": "",
+          "SpHitTag": "",
+          "SpHitRatio": 2.0,
+          "SpWeakHitActor": "",
+          "PowerForPlayer": -1
+        },
+        "WeaponCommon": {
+          "PlayerEqScale": 1.0,
+          "EnemyEqScale": 1.4,
+          "GuardPower": 0,
+          "Rank": 0,
+          "IsHammer": false,
+          "IsWeakBreaker": false,
+          "IsBoomerang": false,
+          "IsBlunt": true,
+          "IsLuckyWeapon": false,
+          "IsPikohan": false,
+          "IsThrowingWeapon": false,
+          "IsThrowingBreakWeapon": true,
+          "ThrowRange": 20.0,
+          "DreadActor": "",
+          "ThroughActor": "",
+          "NPCWeaponType": "",
+          "IsNotOnTerrorHold": false,
+          "IsAsOffUnEquiped": false,
+          "ChemicalEnergyMax": 0,
+          "ChemicalEnergyAmountUsed": 0,
+          "ChemicalEnergyRecoverRate": 0.0,
+          "ChemicalEnergyRecoverInterval": 60,
+          "StickDamage": 0,
+          "ShootBeam": "",
+          "DropFromPorchRot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "SharpWeaponPer": 10.0,
+          "SharpWeaponAddAtkMin": 4,
+          "SharpWeaponAddAtkMax": 8,
+          "SharpWeaponAddLifeMin": 3,
+          "SharpWeaponAddLifeMax": 6,
+          "SharpWeaponAddCrit": false,
+          "SharpWeaponAddGuardMin": 0,
+          "SharpWeaponAddGuardMax": 0,
+          "PoweredSharpAddAtkMin": 9,
+          "PoweredSharpAddAtkMax": 16,
+          "PoweredSharpAddLifeMin": 7,
+          "PoweredSharpAddLifeMax": 15,
+          "PoweredSharpWeaponAddGuardMin": 0,
+          "PoweredSharpWeaponAddGuardMax": 0,
+          "PoweredSharpAddThrowMin": 1.0,
+          "PoweredSharpAddThrowMax": 1.0,
+          "PoweredSharpAddSpreadFire": false,
+          "PoweredSharpAddZoomRapid": false,
+          "PoweredSharpAddRapidFireMin": 1.1,
+          "PoweredSharpAddRapidFireMax": 1.3,
+          "PoweredSharpAddSurfMaster": false
+        },
+        "Bow": {
+          "QuiverName": "Weapon_Quiver_001",
+          "ArrowName": "",
+          "IsGuardPierce": false,
+          "ExtraDamageRatio": 1.0,
+          "BaseAttackPowerRatio": 1.0,
+          "IsLeadShot": false,
+          "LeadShotNum": 5,
+          "LeadShotAng": 20.0,
+          "LeadShotInterval": 1,
+          "IsRapidFire": false,
+          "RapidFireNum": 3,
+          "RapidFireInterval": 3,
+          "IsLongRange": false,
+          "ArrowFirstSpeed": 4.5,
+          "ArrowAcceleration": -0.1,
+          "ArrowStabilitySpeed": 3.0,
+          "ArrowFallAcceleration": -0.2,
+          "ArrowFallStabilitySpeed": 1.0,
+          "ArrowGravity": -9.8,
+          "PlayerHoldTransOffset": [
+            -0.1,
+            0.005,
+            0.04
+          ],
+          "PlayerHoldRotOffset": [
+            0.0,
+            -55.0,
+            -8.0
+          ],
+          "PlayerEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "PlayerEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "SquatPlayerHoldTransAddOffset": [
+            -0.03,
+            -0.005,
+            0.0
+          ],
+          "SquatPlayerHoldRotAddOffset": [
+            0.0,
+            6.0,
+            -6.0
+          ],
+          "NPCHoldTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "NPCHoldRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "NPCEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "NPCEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "EnemyEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "EnemyEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "StandEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "StandEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ArrowChargeRate": 1.0,
+          "ArrowReloadRate": 1.0,
+          "WeaponSubType": "0"
+        },
+        "Item": {
+          "PlayerUseItem": false,
+          "SellingPrice": 15,
+          "BuyingPrice": 50,
+          "CreatingPrice": -1,
+          "StainColor": -1,
+          "SaleRevivalCount": -1,
+          "UseIconActorName": ""
+        },
+        "ClothReaction": {
+          "AtkCollidableName": "Collidable_Attack",
+          "AtkCollidableBoneName": "Attack",
+          "AtkCollidableSpeed": 6.0,
+          "AtkCollidableActiveTime": 0.5,
+          "AtkCollidableResetPos": [
+            0.0,
+            0.0,
+            2.0
+          ],
+          "GroundCollidableName": "Collidable_Ground_1",
+          "GroundCollidableBoneName": "Ground_1",
+          "GroundCollidableOffset": 0.05,
+          "UseGroundCollidableResetPos": false,
+          "GroundCollidableResetPos": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "GroundCollidableMoveSpeed": 300.0,
+          "WallCollidableName": "",
+          "WallCollidableBoneName": "",
+          "WallCollidableOffset": 0.05,
+          "PlayerCollidableName": "",
+          "PlayerCollidableBoneName": ""
+        },
+        "PictureBook": {
+          "LiveSpot1": -1,
+          "LiveSpot2": -1,
+          "SpecialDrop": -1
+        }
+      },
+      "lists": {}
+    }
+  },
+  "Weapon_Bow_028.gparamlist": {
+    "version": 0,
+    "type": "xml",
+    "param_root": {
+      "objects": {
+        "System": {
+          "SameGroupActorName": "",
+          "IsGetItemSelf": false
+        },
+        "General": {
+          "Speed": 1.0,
+          "Life": 60,
+          "IsLifeInfinite": false,
+          "ElectricalDischarge": 1.0,
+          "IsBurnOutBorn": false,
+          "BurnOutBornName": "",
+          "IsBurnOutBornIdent": false,
+          "ChangeDropTableName": ""
+        },
+        "Attack": {
+          "Power": 28,
+          "Impulse": 0,
+          "ImpulseLarge": 0,
+          "Range": 40.0,
+          "GuardBreakPower": 0,
+          "SpHitActor": "",
+          "SpHitTag": "",
+          "SpHitRatio": 2.0,
+          "SpWeakHitActor": "",
+          "PowerForPlayer": -1
+        },
+        "WeaponCommon": {
+          "PlayerEqScale": 1.0,
+          "EnemyEqScale": 1.4,
+          "GuardPower": 0,
+          "Rank": 0,
+          "IsHammer": false,
+          "IsWeakBreaker": false,
+          "IsBoomerang": false,
+          "IsBlunt": true,
+          "IsLuckyWeapon": false,
+          "IsPikohan": false,
+          "IsThrowingWeapon": false,
+          "IsThrowingBreakWeapon": true,
+          "ThrowRange": 20.0,
+          "DreadActor": "",
+          "ThroughActor": "",
+          "NPCWeaponType": "",
+          "IsNotOnTerrorHold": false,
+          "IsAsOffUnEquiped": false,
+          "ChemicalEnergyMax": 0,
+          "ChemicalEnergyAmountUsed": 0,
+          "ChemicalEnergyRecoverRate": 0.0,
+          "ChemicalEnergyRecoverInterval": 60,
+          "StickDamage": 0,
+          "ShootBeam": "",
+          "DropFromPorchRot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "SharpWeaponPer": 10.0,
+          "SharpWeaponAddAtkMin": 6,
+          "SharpWeaponAddAtkMax": 13,
+          "SharpWeaponAddLifeMin": 10,
+          "SharpWeaponAddLifeMax": 20,
+          "SharpWeaponAddCrit": false,
+          "SharpWeaponAddGuardMin": 0,
+          "SharpWeaponAddGuardMax": 0,
+          "PoweredSharpAddAtkMin": 14,
+          "PoweredSharpAddAtkMax": 23,
+          "PoweredSharpAddLifeMin": 21,
+          "PoweredSharpAddLifeMax": 50,
+          "PoweredSharpWeaponAddGuardMin": 0,
+          "PoweredSharpWeaponAddGuardMax": 0,
+          "PoweredSharpAddThrowMin": 1.0,
+          "PoweredSharpAddThrowMax": 1.0,
+          "PoweredSharpAddSpreadFire": false,
+          "PoweredSharpAddZoomRapid": false,
+          "PoweredSharpAddRapidFireMin": 1.1,
+          "PoweredSharpAddRapidFireMax": 1.3,
+          "PoweredSharpAddSurfMaster": false
+        },
+        "Bow": {
+          "QuiverName": "Weapon_Quiver_001",
+          "ArrowName": "",
+          "IsGuardPierce": false,
+          "ExtraDamageRatio": 0.6,
+          "BaseAttackPowerRatio": 0.6,
+          "IsLeadShot": true,
+          "LeadShotNum": 3,
+          "LeadShotAng": 3.0,
+          "LeadShotInterval": 1,
+          "IsRapidFire": false,
+          "RapidFireNum": 0,
+          "RapidFireInterval": 0,
+          "IsLongRange": false,
+          "ArrowFirstSpeed": 4.5,
+          "ArrowAcceleration": -0.1,
+          "ArrowStabilitySpeed": 3.0,
+          "ArrowFallAcceleration": -0.2,
+          "ArrowFallStabilitySpeed": 1.0,
+          "ArrowGravity": -9.8,
+          "PlayerHoldTransOffset": [
+            -0.1,
+            0.0,
+            0.05
+          ],
+          "PlayerHoldRotOffset": [
+            -3.0,
+            -52.0,
+            -3.0
+          ],
+          "PlayerEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "PlayerEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "SquatPlayerHoldTransAddOffset": [
+            -0.03,
+            -0.01,
+            0.0
+          ],
+          "SquatPlayerHoldRotAddOffset": [
+            0.0,
+            7.0,
+            -3.0
+          ],
+          "NPCHoldTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "NPCHoldRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "NPCEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "NPCEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "EnemyEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "EnemyEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "StandEquipTransOffset": [
+            0.05,
+            0.0,
+            0.0
+          ],
+          "StandEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ArrowChargeRate": 1.8,
+          "ArrowReloadRate": 1.0,
+          "WeaponSubType": "0"
+        },
+        "Item": {
+          "PlayerUseItem": false,
+          "SellingPrice": 120,
+          "BuyingPrice": 380,
+          "CreatingPrice": -1,
+          "StainColor": -1,
+          "SaleRevivalCount": -1,
+          "UseIconActorName": ""
+        },
+        "ClothReaction": {
+          "AtkCollidableName": "",
+          "AtkCollidableBoneName": "",
+          "AtkCollidableSpeed": 0.0,
+          "AtkCollidableActiveTime": 0.0,
+          "AtkCollidableResetPos": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "GroundCollidableName": "Collidable_Ground",
+          "GroundCollidableBoneName": "Ground",
+          "GroundCollidableOffset": -0.08,
+          "UseGroundCollidableResetPos": false,
+          "GroundCollidableResetPos": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "GroundCollidableMoveSpeed": 300.0,
+          "WallCollidableName": "",
+          "WallCollidableBoneName": "",
+          "WallCollidableOffset": 0.05,
+          "PlayerCollidableName": "",
+          "PlayerCollidableBoneName": ""
+        },
+        "PictureBook": {
+          "LiveSpot1": -1,
+          "LiveSpot2": -1,
+          "SpecialDrop": -1
+        }
+      },
+      "lists": {}
+    }
+  },
+  "Weapon_Bow_029.gparamlist": {
+    "version": 0,
+    "type": "xml",
+    "param_root": {
+      "objects": {
+        "System": {
+          "SameGroupActorName": "",
+          "IsGetItemSelf": false
+        },
+        "General": {
+          "Speed": 1.0,
+          "Life": 45,
+          "IsLifeInfinite": false,
+          "ElectricalDischarge": 1.0,
+          "IsBurnOutBorn": false,
+          "BurnOutBornName": "",
+          "IsBurnOutBornIdent": false,
+          "ChangeDropTableName": ""
+        },
+        "Attack": {
+          "Power": 10,
+          "Impulse": 0,
+          "ImpulseLarge": 0,
+          "Range": 40.0,
+          "GuardBreakPower": 0,
+          "SpHitActor": "",
+          "SpHitTag": "",
+          "SpHitRatio": 2.0,
+          "SpWeakHitActor": "",
+          "PowerForPlayer": -1
+        },
+        "WeaponCommon": {
+          "PlayerEqScale": 1.0,
+          "EnemyEqScale": 1.4,
+          "GuardPower": 0,
+          "Rank": 0,
+          "IsHammer": false,
+          "IsWeakBreaker": false,
+          "IsBoomerang": false,
+          "IsBlunt": true,
+          "IsLuckyWeapon": false,
+          "IsPikohan": false,
+          "IsThrowingWeapon": false,
+          "IsThrowingBreakWeapon": true,
+          "ThrowRange": 20.0,
+          "DreadActor": "",
+          "ThroughActor": "",
+          "NPCWeaponType": "",
+          "IsNotOnTerrorHold": false,
+          "IsAsOffUnEquiped": false,
+          "ChemicalEnergyMax": 0,
+          "ChemicalEnergyAmountUsed": 0,
+          "ChemicalEnergyRecoverRate": 0.0,
+          "ChemicalEnergyRecoverInterval": 60,
+          "StickDamage": 0,
+          "ShootBeam": "",
+          "DropFromPorchRot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "SharpWeaponPer": 10.0,
+          "SharpWeaponAddAtkMin": 6,
+          "SharpWeaponAddAtkMax": 10,
+          "SharpWeaponAddLifeMin": 5,
+          "SharpWeaponAddLifeMax": 9,
+          "SharpWeaponAddCrit": false,
+          "SharpWeaponAddGuardMin": 0,
+          "SharpWeaponAddGuardMax": 0,
+          "PoweredSharpAddAtkMin": 11,
+          "PoweredSharpAddAtkMax": 16,
+          "PoweredSharpAddLifeMin": 20,
+          "PoweredSharpAddLifeMax": 23,
+          "PoweredSharpWeaponAddGuardMin": 0,
+          "PoweredSharpWeaponAddGuardMax": 0,
+          "PoweredSharpAddThrowMin": 1.0,
+          "PoweredSharpAddThrowMax": 1.0,
+          "PoweredSharpAddSpreadFire": false,
+          "PoweredSharpAddZoomRapid": false,
+          "PoweredSharpAddRapidFireMin": 1.1,
+          "PoweredSharpAddRapidFireMax": 1.3,
+          "PoweredSharpAddSurfMaster": false
+        },
+        "Bow": {
+          "QuiverName": "Weapon_Quiver_001",
+          "ArrowName": "",
+          "IsGuardPierce": false,
+          "ExtraDamageRatio": 1.0,
+          "BaseAttackPowerRatio": 1.0,
+          "IsLeadShot": false,
+          "LeadShotNum": 0,
+          "LeadShotAng": 45.0,
+          "LeadShotInterval": 0,
+          "IsRapidFire": false,
+          "RapidFireNum": 0,
+          "RapidFireInterval": 0,
+          "IsLongRange": true,
+          "ArrowFirstSpeed": 4.5,
+          "ArrowAcceleration": -0.1,
+          "ArrowStabilitySpeed": 3.0,
+          "ArrowFallAcceleration": -0.2,
+          "ArrowFallStabilitySpeed": 1.0,
+          "ArrowGravity": -9.8,
+          "PlayerHoldTransOffset": [
+            -0.1,
+            0.01,
+            0.06
+          ],
+          "PlayerHoldRotOffset": [
+            -6.0,
+            -55.0,
+            -3.0
+          ],
+          "PlayerEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "PlayerEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "SquatPlayerHoldTransAddOffset": [
+            -0.05,
+            -0.02,
+            0.0
+          ],
+          "SquatPlayerHoldRotAddOffset": [
+            0.0,
+            6.0,
+            -5.0
+          ],
+          "NPCHoldTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "NPCHoldRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "NPCEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "NPCEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "EnemyEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "EnemyEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "StandEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "StandEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ArrowChargeRate": 1.0,
+          "ArrowReloadRate": 1.0,
+          "WeaponSubType": "0"
+        },
+        "Item": {
+          "PlayerUseItem": false,
+          "SellingPrice": 10,
+          "BuyingPrice": 50,
+          "CreatingPrice": -1,
+          "StainColor": -1,
+          "SaleRevivalCount": -1,
+          "UseIconActorName": ""
+        },
+        "ClothReaction": {
+          "AtkCollidableName": "Collidable_Attack",
+          "AtkCollidableBoneName": "Attack",
+          "AtkCollidableSpeed": 6.0,
+          "AtkCollidableActiveTime": 0.5,
+          "AtkCollidableResetPos": [
+            0.0,
+            0.0,
+            2.0
+          ],
+          "GroundCollidableName": "Collidable_Ground_1",
+          "GroundCollidableBoneName": "Ground_1",
+          "GroundCollidableOffset": 0.05,
+          "UseGroundCollidableResetPos": false,
+          "GroundCollidableResetPos": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "GroundCollidableMoveSpeed": 300.0,
+          "WallCollidableName": "",
+          "WallCollidableBoneName": "",
+          "WallCollidableOffset": 0.05,
+          "PlayerCollidableName": "",
+          "PlayerCollidableBoneName": ""
+        },
+        "PictureBook": {
+          "LiveSpot1": -1,
+          "LiveSpot2": -1,
+          "SpecialDrop": -1
+        }
+      },
+      "lists": {}
+    }
+  },
+  "Weapon_Bow_030.gparamlist": {
+    "version": 0,
+    "type": "xml",
+    "param_root": {
+      "objects": {
+        "System": {
+          "SameGroupActorName": "",
+          "IsGetItemSelf": false
+        },
+        "General": {
+          "Speed": 1.0,
+          "Life": 50,
+          "IsLifeInfinite": false,
+          "ElectricalDischarge": 1.0,
+          "IsBurnOutBorn": false,
+          "BurnOutBornName": "",
+          "IsBurnOutBornIdent": false,
+          "ChangeDropTableName": ""
+        },
+        "Attack": {
+          "Power": 36,
+          "Impulse": 0,
+          "ImpulseLarge": 0,
+          "Range": 20.0,
+          "GuardBreakPower": 0,
+          "SpHitActor": "",
+          "SpHitTag": "",
+          "SpHitRatio": 2.0,
+          "SpWeakHitActor": "",
+          "PowerForPlayer": -1
+        },
+        "WeaponCommon": {
+          "PlayerEqScale": 1.0,
+          "EnemyEqScale": 1.4,
+          "GuardPower": 0,
+          "Rank": 0,
+          "IsHammer": false,
+          "IsWeakBreaker": false,
+          "IsBoomerang": false,
+          "IsBlunt": true,
+          "IsLuckyWeapon": false,
+          "IsPikohan": false,
+          "IsThrowingWeapon": false,
+          "IsThrowingBreakWeapon": true,
+          "ThrowRange": 20.0,
+          "DreadActor": "",
+          "ThroughActor": "",
+          "NPCWeaponType": "",
+          "IsNotOnTerrorHold": false,
+          "IsAsOffUnEquiped": false,
+          "ChemicalEnergyMax": 0,
+          "ChemicalEnergyAmountUsed": 0,
+          "ChemicalEnergyRecoverRate": 0.0,
+          "ChemicalEnergyRecoverInterval": 60,
+          "StickDamage": 0,
+          "ShootBeam": "",
+          "DropFromPorchRot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "SharpWeaponPer": 10.0,
+          "SharpWeaponAddAtkMin": 3,
+          "SharpWeaponAddAtkMax": 6,
+          "SharpWeaponAddLifeMin": 5,
+          "SharpWeaponAddLifeMax": 10,
+          "SharpWeaponAddCrit": false,
+          "SharpWeaponAddGuardMin": 0,
+          "SharpWeaponAddGuardMax": 0,
+          "PoweredSharpAddAtkMin": 7,
+          "PoweredSharpAddAtkMax": 11,
+          "PoweredSharpAddLifeMin": 11,
+          "PoweredSharpAddLifeMax": 25,
+          "PoweredSharpWeaponAddGuardMin": 0,
+          "PoweredSharpWeaponAddGuardMax": 0,
+          "PoweredSharpAddThrowMin": 1.0,
+          "PoweredSharpAddThrowMax": 1.0,
+          "PoweredSharpAddSpreadFire": false,
+          "PoweredSharpAddZoomRapid": false,
+          "PoweredSharpAddRapidFireMin": 1.1,
+          "PoweredSharpAddRapidFireMax": 1.3,
+          "PoweredSharpAddSurfMaster": false
+        },
+        "Bow": {
+          "QuiverName": "Weapon_Quiver_001",
+          "ArrowName": "",
+          "IsGuardPierce": false,
+          "ExtraDamageRatio": 1.0,
+          "BaseAttackPowerRatio": 1.0,
+          "IsLeadShot": false,
+          "LeadShotNum": 5,
+          "LeadShotAng": 20.0,
+          "LeadShotInterval": 1,
+          "IsRapidFire": false,
+          "RapidFireNum": 3,
+          "RapidFireInterval": 3,
+          "IsLongRange": false,
+          "ArrowFirstSpeed": 4.5,
+          "ArrowAcceleration": -0.1,
+          "ArrowStabilitySpeed": 3.0,
+          "ArrowFallAcceleration": -0.2,
+          "ArrowFallStabilitySpeed": 1.0,
+          "ArrowGravity": -9.8,
+          "PlayerHoldTransOffset": [
+            -0.1,
+            0.0,
+            0.06
+          ],
+          "PlayerHoldRotOffset": [
+            0.0,
+            -55.0,
+            -5.0
+          ],
+          "PlayerEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "PlayerEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "SquatPlayerHoldTransAddOffset": [
+            -0.05,
+            -0.01,
+            0.0
+          ],
+          "SquatPlayerHoldRotAddOffset": [
+            0.0,
+            8.0,
+            -8.0
+          ],
+          "NPCHoldTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "NPCHoldRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "NPCEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "NPCEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "EnemyEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "EnemyEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "StandEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "StandEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ArrowChargeRate": 1.0,
+          "ArrowReloadRate": 1.0,
+          "WeaponSubType": "0"
+        },
+        "Item": {
+          "PlayerUseItem": false,
+          "SellingPrice": 16,
+          "BuyingPrice": 50,
+          "CreatingPrice": -1,
+          "StainColor": -1,
+          "SaleRevivalCount": -1,
+          "UseIconActorName": ""
+        },
+        "ClothReaction": {
+          "AtkCollidableName": "Collidable_Attack",
+          "AtkCollidableBoneName": "Attack",
+          "AtkCollidableSpeed": 6.0,
+          "AtkCollidableActiveTime": 0.5,
+          "AtkCollidableResetPos": [
+            0.0,
+            0.0,
+            2.0
+          ],
+          "GroundCollidableName": "Collidable_Ground_1",
+          "GroundCollidableBoneName": "Ground_1",
+          "GroundCollidableOffset": 0.05,
+          "UseGroundCollidableResetPos": false,
+          "GroundCollidableResetPos": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "GroundCollidableMoveSpeed": 300.0,
+          "WallCollidableName": "",
+          "WallCollidableBoneName": "",
+          "WallCollidableOffset": 0.05,
+          "PlayerCollidableName": "",
+          "PlayerCollidableBoneName": ""
+        },
+        "PictureBook": {
+          "LiveSpot1": -1,
+          "LiveSpot2": -1,
+          "SpecialDrop": -1
+        }
+      },
+      "lists": {}
+    }
+  },
+  "Weapon_Bow_032.gparamlist": {
+    "version": 0,
+    "type": "xml",
+    "param_root": {
+      "objects": {
+        "System": {
+          "SameGroupActorName": "",
+          "IsGetItemSelf": false
+        },
+        "General": {
+          "Speed": 1.0,
+          "Life": 45,
+          "IsLifeInfinite": false,
+          "ElectricalDischarge": 1.0,
+          "IsBurnOutBorn": false,
+          "BurnOutBornName": "",
+          "IsBurnOutBornIdent": false,
+          "ChangeDropTableName": ""
+        },
+        "Attack": {
+          "Power": 32,
+          "Impulse": 0,
+          "ImpulseLarge": 0,
+          "Range": 20.0,
+          "GuardBreakPower": 0,
+          "SpHitActor": "",
+          "SpHitTag": "",
+          "SpHitRatio": 2.0,
+          "SpWeakHitActor": "",
+          "PowerForPlayer": -1
+        },
+        "WeaponCommon": {
+          "PlayerEqScale": 1.0,
+          "EnemyEqScale": 1.4,
+          "GuardPower": 0,
+          "Rank": 0,
+          "IsHammer": false,
+          "IsWeakBreaker": false,
+          "IsBoomerang": false,
+          "IsBlunt": true,
+          "IsLuckyWeapon": false,
+          "IsPikohan": false,
+          "IsThrowingWeapon": false,
+          "IsThrowingBreakWeapon": true,
+          "ThrowRange": 20.0,
+          "DreadActor": "",
+          "ThroughActor": "",
+          "NPCWeaponType": "",
+          "IsNotOnTerrorHold": false,
+          "IsAsOffUnEquiped": false,
+          "ChemicalEnergyMax": 0,
+          "ChemicalEnergyAmountUsed": 0,
+          "ChemicalEnergyRecoverRate": 0.0,
+          "ChemicalEnergyRecoverInterval": 60,
+          "StickDamage": 0,
+          "ShootBeam": "",
+          "DropFromPorchRot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "SharpWeaponPer": 10.0,
+          "SharpWeaponAddAtkMin": 5,
+          "SharpWeaponAddAtkMax": 9,
+          "SharpWeaponAddLifeMin": 6,
+          "SharpWeaponAddLifeMax": 11,
+          "SharpWeaponAddCrit": false,
+          "SharpWeaponAddGuardMin": 0,
+          "SharpWeaponAddGuardMax": 0,
+          "PoweredSharpAddAtkMin": 10,
+          "PoweredSharpAddAtkMax": 18,
+          "PoweredSharpAddLifeMin": 12,
+          "PoweredSharpAddLifeMax": 28,
+          "PoweredSharpWeaponAddGuardMin": 0,
+          "PoweredSharpWeaponAddGuardMax": 0,
+          "PoweredSharpAddThrowMin": 1.0,
+          "PoweredSharpAddThrowMax": 1.0,
+          "PoweredSharpAddSpreadFire": true,
+          "PoweredSharpAddZoomRapid": false,
+          "PoweredSharpAddRapidFireMin": 1.1,
+          "PoweredSharpAddRapidFireMax": 1.3,
+          "PoweredSharpAddSurfMaster": false
+        },
+        "Bow": {
+          "QuiverName": "Weapon_Quiver_001",
+          "ArrowName": "",
+          "IsGuardPierce": false,
+          "ExtraDamageRatio": 0.6,
+          "BaseAttackPowerRatio": 0.6,
+          "IsLeadShot": true,
+          "LeadShotNum": 3,
+          "LeadShotAng": 3.0,
+          "LeadShotInterval": 1,
+          "IsRapidFire": false,
+          "RapidFireNum": 2,
+          "RapidFireInterval": 1,
+          "IsLongRange": false,
+          "ArrowFirstSpeed": 4.5,
+          "ArrowAcceleration": -0.1,
+          "ArrowStabilitySpeed": 3.0,
+          "ArrowFallAcceleration": -0.2,
+          "ArrowFallStabilitySpeed": 1.0,
+          "ArrowGravity": -9.8,
+          "PlayerHoldTransOffset": [
+            -0.1,
+            0.0,
+            0.06
+          ],
+          "PlayerHoldRotOffset": [
+            0.0,
+            -55.0,
+            -8.0
+          ],
+          "PlayerEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "PlayerEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "SquatPlayerHoldTransAddOffset": [
+            -0.03,
+            -0.03,
+            0.0
+          ],
+          "SquatPlayerHoldRotAddOffset": [
+            0.0,
+            7.0,
+            -8.0
+          ],
+          "NPCHoldTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "NPCHoldRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "NPCEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "NPCEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "EnemyEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "EnemyEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "StandEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "StandEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ArrowChargeRate": 1.0,
+          "ArrowReloadRate": 1.0,
+          "WeaponSubType": "0"
+        },
+        "Item": {
+          "PlayerUseItem": false,
+          "SellingPrice": 52,
+          "BuyingPrice": 156,
+          "CreatingPrice": -1,
+          "StainColor": -1,
+          "SaleRevivalCount": -1,
+          "UseIconActorName": ""
+        },
+        "ClothReaction": {
+          "AtkCollidableName": "Collidable_Attack",
+          "AtkCollidableBoneName": "Attack",
+          "AtkCollidableSpeed": 6.0,
+          "AtkCollidableActiveTime": 0.5,
+          "AtkCollidableResetPos": [
+            0.0,
+            0.0,
+            2.0
+          ],
+          "GroundCollidableName": "Collidable_Ground_1",
+          "GroundCollidableBoneName": "Ground_1",
+          "GroundCollidableOffset": 0.05,
+          "UseGroundCollidableResetPos": false,
+          "GroundCollidableResetPos": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "GroundCollidableMoveSpeed": 300.0,
+          "WallCollidableName": "",
+          "WallCollidableBoneName": "",
+          "WallCollidableOffset": 0.05,
+          "PlayerCollidableName": "",
+          "PlayerCollidableBoneName": ""
+        },
+        "PictureBook": {
+          "LiveSpot1": -1,
+          "LiveSpot2": -1,
+          "SpecialDrop": -1
+        }
+      },
+      "lists": {}
+    }
+  },
+  "Weapon_Bow_033.gparamlist": {
+    "version": 0,
+    "type": "xml",
+    "param_root": {
+      "objects": {
+        "System": {
+          "SameGroupActorName": "",
+          "IsGetItemSelf": false
+        },
+        "General": {
+          "Speed": 1.0,
+          "Life": 20,
+          "IsLifeInfinite": false,
+          "ElectricalDischarge": 1.0,
+          "IsBurnOutBorn": false,
+          "BurnOutBornName": "",
+          "IsBurnOutBornIdent": false,
+          "ChangeDropTableName": ""
+        },
+        "Attack": {
+          "Power": 50,
+          "Impulse": 0,
+          "ImpulseLarge": 0,
+          "Range": 30.0,
+          "GuardBreakPower": 0,
+          "SpHitActor": "",
+          "SpHitTag": "",
+          "SpHitRatio": 2.0,
+          "SpWeakHitActor": "",
+          "PowerForPlayer": -1
+        },
+        "WeaponCommon": {
+          "PlayerEqScale": 1.0,
+          "EnemyEqScale": 1.4,
+          "GuardPower": 0,
+          "Rank": 0,
+          "IsHammer": false,
+          "IsWeakBreaker": false,
+          "IsBoomerang": false,
+          "IsBlunt": true,
+          "IsLuckyWeapon": false,
+          "IsPikohan": false,
+          "IsThrowingWeapon": false,
+          "IsThrowingBreakWeapon": true,
+          "ThrowRange": 20.0,
+          "DreadActor": "",
+          "ThroughActor": "",
+          "NPCWeaponType": "",
+          "IsNotOnTerrorHold": false,
+          "IsAsOffUnEquiped": false,
+          "ChemicalEnergyMax": 0,
+          "ChemicalEnergyAmountUsed": 0,
+          "ChemicalEnergyRecoverRate": 0.0,
+          "ChemicalEnergyRecoverInterval": 60,
+          "StickDamage": 0,
+          "ShootBeam": "",
+          "DropFromPorchRot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "SharpWeaponPer": 10.0,
+          "SharpWeaponAddAtkMin": 5,
+          "SharpWeaponAddAtkMax": 11,
+          "SharpWeaponAddLifeMin": 2,
+          "SharpWeaponAddLifeMax": 4,
+          "SharpWeaponAddCrit": false,
+          "SharpWeaponAddGuardMin": 0,
+          "SharpWeaponAddGuardMax": 0,
+          "PoweredSharpAddAtkMin": 12,
+          "PoweredSharpAddAtkMax": 20,
+          "PoweredSharpAddLifeMin": 5,
+          "PoweredSharpAddLifeMax": 30,
+          "PoweredSharpWeaponAddGuardMin": 0,
+          "PoweredSharpWeaponAddGuardMax": 0,
+          "PoweredSharpAddThrowMin": 1.0,
+          "PoweredSharpAddThrowMax": 1.0,
+          "PoweredSharpAddSpreadFire": false,
+          "PoweredSharpAddZoomRapid": false,
+          "PoweredSharpAddRapidFireMin": 1.1,
+          "PoweredSharpAddRapidFireMax": 1.3,
+          "PoweredSharpAddSurfMaster": false
+        },
+        "Bow": {
+          "QuiverName": "Weapon_Quiver_001",
+          "ArrowName": "",
+          "IsGuardPierce": false,
+          "ExtraDamageRatio": 1.0,
+          "BaseAttackPowerRatio": 1.0,
+          "IsLeadShot": false,
+          "LeadShotNum": 0,
+          "LeadShotAng": 45.0,
+          "LeadShotInterval": 0,
+          "IsRapidFire": false,
+          "RapidFireNum": 0,
+          "RapidFireInterval": 0,
+          "IsLongRange": false,
+          "ArrowFirstSpeed": 8.0,
+          "ArrowAcceleration": -0.1,
+          "ArrowStabilitySpeed": 4.0,
+          "ArrowFallAcceleration": -0.2,
+          "ArrowFallStabilitySpeed": 1.0,
+          "ArrowGravity": -9.8,
+          "PlayerHoldTransOffset": [
+            -0.1,
+            0.01,
+            0.04
+          ],
+          "PlayerHoldRotOffset": [
+            0.0,
+            -53.0,
+            -10.0
+          ],
+          "PlayerEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "PlayerEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "SquatPlayerHoldTransAddOffset": [
+            -0.03,
+            0.0,
+            0.0
+          ],
+          "SquatPlayerHoldRotAddOffset": [
+            0.0,
+            6.0,
+            -5.0
+          ],
+          "NPCHoldTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "NPCHoldRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "NPCEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "NPCEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "EnemyEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "EnemyEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "StandEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "StandEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ArrowChargeRate": 1.5,
+          "ArrowReloadRate": 0.8,
+          "WeaponSubType": "0"
+        },
+        "Item": {
+          "PlayerUseItem": false,
+          "SellingPrice": 100,
+          "BuyingPrice": 300,
+          "CreatingPrice": -1,
+          "StainColor": -1,
+          "SaleRevivalCount": -1,
+          "UseIconActorName": ""
+        },
+        "ClothReaction": {
+          "AtkCollidableName": "Collidable_Attack",
+          "AtkCollidableBoneName": "Attack",
+          "AtkCollidableSpeed": 6.0,
+          "AtkCollidableActiveTime": 0.5,
+          "AtkCollidableResetPos": [
+            0.0,
+            0.0,
+            2.0
+          ],
+          "GroundCollidableName": "Collidable_Ground_1",
+          "GroundCollidableBoneName": "Ground_1",
+          "GroundCollidableOffset": 0.05,
+          "UseGroundCollidableResetPos": false,
+          "GroundCollidableResetPos": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "GroundCollidableMoveSpeed": 300.0,
+          "WallCollidableName": "",
+          "WallCollidableBoneName": "",
+          "WallCollidableOffset": 0.05,
+          "PlayerCollidableName": "",
+          "PlayerCollidableBoneName": ""
+        },
+        "PictureBook": {
+          "LiveSpot1": 21,
+          "LiveSpot2": -1,
+          "SpecialDrop": 26
+        }
+      },
+      "lists": {}
+    }
+  },
+  "Weapon_Bow_035.gparamlist": {
+    "version": 0,
+    "type": "xml",
+    "param_root": {
+      "objects": {
+        "System": {
+          "SameGroupActorName": "",
+          "IsGetItemSelf": false
+        },
+        "General": {
+          "Speed": 1.0,
+          "Life": 48,
+          "IsLifeInfinite": false,
+          "ElectricalDischarge": 1.0,
+          "IsBurnOutBorn": false,
+          "BurnOutBornName": "",
+          "IsBurnOutBornIdent": false,
+          "ChangeDropTableName": ""
+        },
+        "Attack": {
+          "Power": 26,
+          "Impulse": 0,
+          "ImpulseLarge": 0,
+          "Range": 20.0,
+          "GuardBreakPower": 0,
+          "SpHitActor": "",
+          "SpHitTag": "",
+          "SpHitRatio": 2.0,
+          "SpWeakHitActor": "",
+          "PowerForPlayer": -1
+        },
+        "WeaponCommon": {
+          "PlayerEqScale": 1.0,
+          "EnemyEqScale": 1.4,
+          "GuardPower": 0,
+          "Rank": 5,
+          "IsHammer": false,
+          "IsWeakBreaker": false,
+          "IsBoomerang": false,
+          "IsBlunt": true,
+          "IsLuckyWeapon": false,
+          "IsPikohan": false,
+          "IsThrowingWeapon": false,
+          "IsThrowingBreakWeapon": true,
+          "ThrowRange": 20.0,
+          "DreadActor": "",
+          "ThroughActor": "",
+          "NPCWeaponType": "",
+          "IsNotOnTerrorHold": false,
+          "IsAsOffUnEquiped": false,
+          "ChemicalEnergyMax": 0,
+          "ChemicalEnergyAmountUsed": 0,
+          "ChemicalEnergyRecoverRate": 0.0,
+          "ChemicalEnergyRecoverInterval": 60,
+          "StickDamage": 0,
+          "ShootBeam": "",
+          "DropFromPorchRot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "SharpWeaponPer": 10.0,
+          "SharpWeaponAddAtkMin": 3,
+          "SharpWeaponAddAtkMax": 6,
+          "SharpWeaponAddLifeMin": 3,
+          "SharpWeaponAddLifeMax": 6,
+          "SharpWeaponAddCrit": false,
+          "SharpWeaponAddGuardMin": 0,
+          "SharpWeaponAddGuardMax": 0,
+          "PoweredSharpAddAtkMin": 7,
+          "PoweredSharpAddAtkMax": 11,
+          "PoweredSharpAddLifeMin": 7,
+          "PoweredSharpAddLifeMax": 11,
+          "PoweredSharpWeaponAddGuardMin": 0,
+          "PoweredSharpWeaponAddGuardMax": 0,
+          "PoweredSharpAddThrowMin": 1.0,
+          "PoweredSharpAddThrowMax": 1.0,
+          "PoweredSharpAddSpreadFire": false,
+          "PoweredSharpAddZoomRapid": false,
+          "PoweredSharpAddRapidFireMin": 1.1,
+          "PoweredSharpAddRapidFireMax": 1.3,
+          "PoweredSharpAddSurfMaster": false
+        },
+        "Bow": {
+          "QuiverName": "Weapon_Quiver_001",
+          "ArrowName": "",
+          "IsGuardPierce": false,
+          "ExtraDamageRatio": 1.0,
+          "BaseAttackPowerRatio": 1.0,
+          "IsLeadShot": false,
+          "LeadShotNum": 0,
+          "LeadShotAng": 45.0,
+          "LeadShotInterval": 0,
+          "IsRapidFire": false,
+          "RapidFireNum": 0,
+          "RapidFireInterval": 0,
+          "IsLongRange": false,
+          "ArrowFirstSpeed": 4.5,
+          "ArrowAcceleration": -0.1,
+          "ArrowStabilitySpeed": 3.0,
+          "ArrowFallAcceleration": -0.2,
+          "ArrowFallStabilitySpeed": 1.0,
+          "ArrowGravity": -9.8,
+          "PlayerHoldTransOffset": [
+            -0.1,
+            -0.005,
+            0.04
+          ],
+          "PlayerHoldRotOffset": [
+            0.0,
+            -55.0,
+            -8.0
+          ],
+          "PlayerEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "PlayerEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "SquatPlayerHoldTransAddOffset": [
+            -0.035,
+            0.0,
+            0.0
+          ],
+          "SquatPlayerHoldRotAddOffset": [
+            0.0,
+            7.0,
+            0.0
+          ],
+          "NPCHoldTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "NPCHoldRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "NPCEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "NPCEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "EnemyEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "EnemyEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "StandEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "StandEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ArrowChargeRate": 1.0,
+          "ArrowReloadRate": 1.0,
+          "WeaponSubType": "0"
+        },
+        "Item": {
+          "PlayerUseItem": false,
+          "SellingPrice": 18,
+          "BuyingPrice": 70,
+          "CreatingPrice": -1,
+          "StainColor": -1,
+          "SaleRevivalCount": -1,
+          "UseIconActorName": ""
+        },
+        "ClothReaction": {
+          "AtkCollidableName": "Collidable_Attack",
+          "AtkCollidableBoneName": "Attack",
+          "AtkCollidableSpeed": 6.0,
+          "AtkCollidableActiveTime": 0.5,
+          "AtkCollidableResetPos": [
+            0.0,
+            0.0,
+            2.0
+          ],
+          "GroundCollidableName": "Collidable_Ground_1",
+          "GroundCollidableBoneName": "Ground_1",
+          "GroundCollidableOffset": 0.05,
+          "UseGroundCollidableResetPos": false,
+          "GroundCollidableResetPos": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "GroundCollidableMoveSpeed": 300.0,
+          "WallCollidableName": "",
+          "WallCollidableBoneName": "",
+          "WallCollidableOffset": 0.05,
+          "PlayerCollidableName": "",
+          "PlayerCollidableBoneName": ""
+        },
+        "PictureBook": {
+          "LiveSpot1": -1,
+          "LiveSpot2": -1,
+          "SpecialDrop": -1
+        }
+      },
+      "lists": {}
+    }
+  },
+  "Weapon_Bow_036.gparamlist": {
+    "version": 0,
+    "type": "xml",
+    "param_root": {
+      "objects": {
+        "System": {
+          "SameGroupActorName": "",
+          "IsGetItemSelf": false
+        },
+        "General": {
+          "Speed": 1.0,
+          "Life": 60,
+          "IsLifeInfinite": false,
+          "ElectricalDischarge": 1.0,
+          "IsBurnOutBorn": false,
+          "BurnOutBornName": "",
+          "IsBurnOutBornIdent": false,
+          "ChangeDropTableName": ""
+        },
+        "Attack": {
+          "Power": 38,
+          "Impulse": 0,
+          "ImpulseLarge": 0,
+          "Range": 20.0,
+          "GuardBreakPower": 0,
+          "SpHitActor": "",
+          "SpHitTag": "",
+          "SpHitRatio": 2.0,
+          "SpWeakHitActor": "",
+          "PowerForPlayer": -1
+        },
+        "WeaponCommon": {
+          "PlayerEqScale": 1.0,
+          "EnemyEqScale": 1.4,
+          "GuardPower": 0,
+          "Rank": 5,
+          "IsHammer": false,
+          "IsWeakBreaker": false,
+          "IsBoomerang": false,
+          "IsBlunt": true,
+          "IsLuckyWeapon": false,
+          "IsPikohan": false,
+          "IsThrowingWeapon": false,
+          "IsThrowingBreakWeapon": true,
+          "ThrowRange": 20.0,
+          "DreadActor": "",
+          "ThroughActor": "",
+          "NPCWeaponType": "",
+          "IsNotOnTerrorHold": false,
+          "IsAsOffUnEquiped": false,
+          "ChemicalEnergyMax": 0,
+          "ChemicalEnergyAmountUsed": 0,
+          "ChemicalEnergyRecoverRate": 0.0,
+          "ChemicalEnergyRecoverInterval": 60,
+          "StickDamage": 0,
+          "ShootBeam": "",
+          "DropFromPorchRot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "SharpWeaponPer": 10.0,
+          "SharpWeaponAddAtkMin": 4,
+          "SharpWeaponAddAtkMax": 8,
+          "SharpWeaponAddLifeMin": 7,
+          "SharpWeaponAddLifeMax": 14,
+          "SharpWeaponAddCrit": false,
+          "SharpWeaponAddGuardMin": 0,
+          "SharpWeaponAddGuardMax": 0,
+          "PoweredSharpAddAtkMin": 9,
+          "PoweredSharpAddAtkMax": 15,
+          "PoweredSharpAddLifeMin": 15,
+          "PoweredSharpAddLifeMax": 28,
+          "PoweredSharpWeaponAddGuardMin": 0,
+          "PoweredSharpWeaponAddGuardMax": 0,
+          "PoweredSharpAddThrowMin": 1.0,
+          "PoweredSharpAddThrowMax": 1.0,
+          "PoweredSharpAddSpreadFire": false,
+          "PoweredSharpAddZoomRapid": false,
+          "PoweredSharpAddRapidFireMin": 1.1,
+          "PoweredSharpAddRapidFireMax": 1.3,
+          "PoweredSharpAddSurfMaster": false
+        },
+        "Bow": {
+          "QuiverName": "Weapon_Quiver_001",
+          "ArrowName": "",
+          "IsGuardPierce": false,
+          "ExtraDamageRatio": 1.0,
+          "BaseAttackPowerRatio": 1.0,
+          "IsLeadShot": false,
+          "LeadShotNum": 0,
+          "LeadShotAng": 45.0,
+          "LeadShotInterval": 0,
+          "IsRapidFire": false,
+          "RapidFireNum": 0,
+          "RapidFireInterval": 0,
+          "IsLongRange": false,
+          "ArrowFirstSpeed": 4.5,
+          "ArrowAcceleration": -0.1,
+          "ArrowStabilitySpeed": 3.0,
+          "ArrowFallAcceleration": -0.2,
+          "ArrowFallStabilitySpeed": 1.0,
+          "ArrowGravity": -9.8,
+          "PlayerHoldTransOffset": [
+            -0.1,
+            0.01,
+            0.04
+          ],
+          "PlayerHoldRotOffset": [
+            0.0,
+            -53.0,
+            -10.0
+          ],
+          "PlayerEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "PlayerEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "SquatPlayerHoldTransAddOffset": [
+            -0.03,
+            0.0,
+            0.0
+          ],
+          "SquatPlayerHoldRotAddOffset": [
+            0.0,
+            6.0,
+            -5.0
+          ],
+          "NPCHoldTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "NPCHoldRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "NPCEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "NPCEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "EnemyEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "EnemyEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "StandEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "StandEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ArrowChargeRate": 1.0,
+          "ArrowReloadRate": 1.0,
+          "WeaponSubType": "0"
+        },
+        "Item": {
+          "PlayerUseItem": false,
+          "SellingPrice": 18,
+          "BuyingPrice": 70,
+          "CreatingPrice": -1,
+          "StainColor": -1,
+          "SaleRevivalCount": -1,
+          "UseIconActorName": ""
+        },
+        "ClothReaction": {
+          "AtkCollidableName": "Collidable_Attack",
+          "AtkCollidableBoneName": "Attack",
+          "AtkCollidableSpeed": 6.0,
+          "AtkCollidableActiveTime": 0.5,
+          "AtkCollidableResetPos": [
+            0.0,
+            0.0,
+            2.0
+          ],
+          "GroundCollidableName": "Collidable_Ground_1",
+          "GroundCollidableBoneName": "Ground_1",
+          "GroundCollidableOffset": 0.05,
+          "UseGroundCollidableResetPos": false,
+          "GroundCollidableResetPos": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "GroundCollidableMoveSpeed": 300.0,
+          "WallCollidableName": "",
+          "WallCollidableBoneName": "",
+          "WallCollidableOffset": 0.05,
+          "PlayerCollidableName": "",
+          "PlayerCollidableBoneName": ""
+        },
+        "PictureBook": {
+          "LiveSpot1": -1,
+          "LiveSpot2": -1,
+          "SpecialDrop": -1
+        }
+      },
+      "lists": {}
+    }
+  },
+  "Weapon_Bow_038.gparamlist": {
+    "version": 0,
+    "type": "xml",
+    "param_root": {
+      "objects": {
+        "System": {
+          "SameGroupActorName": "",
+          "IsGetItemSelf": false
+        },
+        "General": {
+          "Speed": 1.0,
+          "Life": 20,
+          "IsLifeInfinite": false,
+          "ElectricalDischarge": 1.0,
+          "IsBurnOutBorn": false,
+          "BurnOutBornName": "",
+          "IsBurnOutBornIdent": false,
+          "ChangeDropTableName": ""
+        },
+        "Attack": {
+          "Power": 4,
+          "Impulse": 0,
+          "ImpulseLarge": 0,
+          "Range": 20.0,
+          "GuardBreakPower": 0,
+          "SpHitActor": "",
+          "SpHitTag": "",
+          "SpHitRatio": 2.0,
+          "SpWeakHitActor": "",
+          "PowerForPlayer": -1
+        },
+        "WeaponCommon": {
+          "PlayerEqScale": 1.0,
+          "EnemyEqScale": 1.4,
+          "GuardPower": 0,
+          "Rank": 1,
+          "IsHammer": false,
+          "IsWeakBreaker": false,
+          "IsBoomerang": false,
+          "IsBlunt": true,
+          "IsLuckyWeapon": false,
+          "IsPikohan": false,
+          "IsThrowingWeapon": false,
+          "IsThrowingBreakWeapon": true,
+          "ThrowRange": 20.0,
+          "DreadActor": "",
+          "ThroughActor": "",
+          "NPCWeaponType": "",
+          "IsNotOnTerrorHold": false,
+          "IsAsOffUnEquiped": false,
+          "ChemicalEnergyMax": 0,
+          "ChemicalEnergyAmountUsed": 0,
+          "ChemicalEnergyRecoverRate": 0.0,
+          "ChemicalEnergyRecoverInterval": 60,
+          "StickDamage": 0,
+          "ShootBeam": "",
+          "DropFromPorchRot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "SharpWeaponPer": 10.0,
+          "SharpWeaponAddAtkMin": 3,
+          "SharpWeaponAddAtkMax": 4,
+          "SharpWeaponAddLifeMin": 2,
+          "SharpWeaponAddLifeMax": 4,
+          "SharpWeaponAddCrit": false,
+          "SharpWeaponAddGuardMin": 0,
+          "SharpWeaponAddGuardMax": 0,
+          "PoweredSharpAddAtkMin": 5,
+          "PoweredSharpAddAtkMax": 7,
+          "PoweredSharpAddLifeMin": 5,
+          "PoweredSharpAddLifeMax": 10,
+          "PoweredSharpWeaponAddGuardMin": 0,
+          "PoweredSharpWeaponAddGuardMax": 0,
+          "PoweredSharpAddThrowMin": 1.0,
+          "PoweredSharpAddThrowMax": 1.0,
+          "PoweredSharpAddSpreadFire": false,
+          "PoweredSharpAddZoomRapid": false,
+          "PoweredSharpAddRapidFireMin": 1.1,
+          "PoweredSharpAddRapidFireMax": 1.3,
+          "PoweredSharpAddSurfMaster": false
+        },
+        "Bow": {
+          "QuiverName": "Weapon_Quiver_001",
+          "ArrowName": "",
+          "IsGuardPierce": false,
+          "ExtraDamageRatio": 1.0,
+          "BaseAttackPowerRatio": 1.0,
+          "IsLeadShot": false,
+          "LeadShotNum": 0,
+          "LeadShotAng": 45.0,
+          "LeadShotInterval": 0,
+          "IsRapidFire": false,
+          "RapidFireNum": 0,
+          "RapidFireInterval": 0,
+          "IsLongRange": false,
+          "ArrowFirstSpeed": 4.5,
+          "ArrowAcceleration": -0.1,
+          "ArrowStabilitySpeed": 3.0,
+          "ArrowFallAcceleration": -0.2,
+          "ArrowFallStabilitySpeed": 1.0,
+          "ArrowGravity": -9.8,
+          "PlayerHoldTransOffset": [
+            -0.1,
+            0.0,
+            0.05
+          ],
+          "PlayerHoldRotOffset": [
+            0.0,
+            -55.0,
+            -5.0
+          ],
+          "PlayerEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "PlayerEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "SquatPlayerHoldTransAddOffset": [
+            -0.06,
+            0.0,
+            0.02
+          ],
+          "SquatPlayerHoldRotAddOffset": [
+            0.0,
+            7.0,
+            -7.0
+          ],
+          "NPCHoldTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "NPCHoldRotOffset": [
+            30.0,
+            -80.0,
+            -20.0
+          ],
+          "NPCEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "NPCEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "EnemyEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "EnemyEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "StandEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "StandEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ArrowChargeRate": 1.0,
+          "ArrowReloadRate": 1.0,
+          "WeaponSubType": "0"
+        },
+        "Item": {
+          "PlayerUseItem": false,
+          "SellingPrice": 5,
+          "BuyingPrice": 20,
+          "CreatingPrice": -1,
+          "StainColor": -1,
+          "SaleRevivalCount": -1,
+          "UseIconActorName": ""
+        },
+        "ClothReaction": {
+          "AtkCollidableName": "Collidable_Attack",
+          "AtkCollidableBoneName": "Attack",
+          "AtkCollidableSpeed": 6.0,
+          "AtkCollidableActiveTime": 0.5,
+          "AtkCollidableResetPos": [
+            0.0,
+            0.0,
+            2.0
+          ],
+          "GroundCollidableName": "Collidable_Ground_1",
+          "GroundCollidableBoneName": "Ground_1",
+          "GroundCollidableOffset": 0.05,
+          "UseGroundCollidableResetPos": false,
+          "GroundCollidableResetPos": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "GroundCollidableMoveSpeed": 300.0,
+          "WallCollidableName": "",
+          "WallCollidableBoneName": "",
+          "WallCollidableOffset": 0.05,
+          "PlayerCollidableName": "",
+          "PlayerCollidableBoneName": ""
+        },
+        "PictureBook": {
+          "LiveSpot1": -1,
+          "LiveSpot2": -1,
+          "SpecialDrop": -1
+        }
+      },
+      "lists": {}
+    }
+  },
+  "Weapon_Bow_040.gparamlist": {
+    "version": 0,
+    "type": "xml",
+    "param_root": {
+      "objects": {
+        "System": {
+          "SameGroupActorName": "",
+          "IsGetItemSelf": false
+        },
+        "General": {
+          "Speed": 1.0,
+          "Life": 18,
+          "IsLifeInfinite": false,
+          "ElectricalDischarge": 1.0,
+          "IsBurnOutBorn": false,
+          "BurnOutBornName": "",
+          "IsBurnOutBornIdent": false,
+          "ChangeDropTableName": ""
+        },
+        "Attack": {
+          "Power": 14,
+          "Impulse": 0,
+          "ImpulseLarge": 0,
+          "Range": 40.0,
+          "GuardBreakPower": 0,
+          "SpHitActor": "",
+          "SpHitTag": "",
+          "SpHitRatio": 2.0,
+          "SpWeakHitActor": "",
+          "PowerForPlayer": -1
+        },
+        "WeaponCommon": {
+          "PlayerEqScale": 1.0,
+          "EnemyEqScale": 1.4,
+          "GuardPower": 0,
+          "Rank": 0,
+          "IsHammer": false,
+          "IsWeakBreaker": false,
+          "IsBoomerang": false,
+          "IsBlunt": true,
+          "IsLuckyWeapon": false,
+          "IsPikohan": false,
+          "IsThrowingWeapon": false,
+          "IsThrowingBreakWeapon": true,
+          "ThrowRange": 20.0,
+          "DreadActor": "",
+          "ThroughActor": "",
+          "NPCWeaponType": "",
+          "IsNotOnTerrorHold": false,
+          "IsAsOffUnEquiped": false,
+          "ChemicalEnergyMax": 0,
+          "ChemicalEnergyAmountUsed": 0,
+          "ChemicalEnergyRecoverRate": 0.0,
+          "ChemicalEnergyRecoverInterval": 60,
+          "StickDamage": 0,
+          "ShootBeam": "",
+          "DropFromPorchRot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "SharpWeaponPer": 10.0,
+          "SharpWeaponAddAtkMin": 2,
+          "SharpWeaponAddAtkMax": 4,
+          "SharpWeaponAddLifeMin": 2,
+          "SharpWeaponAddLifeMax": 4,
+          "SharpWeaponAddCrit": false,
+          "SharpWeaponAddGuardMin": 0,
+          "SharpWeaponAddGuardMax": 0,
+          "PoweredSharpAddAtkMin": 5,
+          "PoweredSharpAddAtkMax": 6,
+          "PoweredSharpAddLifeMin": 5,
+          "PoweredSharpAddLifeMax": 10,
+          "PoweredSharpWeaponAddGuardMin": 0,
+          "PoweredSharpWeaponAddGuardMax": 0,
+          "PoweredSharpAddThrowMin": 1.0,
+          "PoweredSharpAddThrowMax": 1.0,
+          "PoweredSharpAddSpreadFire": false,
+          "PoweredSharpAddZoomRapid": false,
+          "PoweredSharpAddRapidFireMin": 1.1,
+          "PoweredSharpAddRapidFireMax": 1.3,
+          "PoweredSharpAddSurfMaster": false
+        },
+        "Bow": {
+          "QuiverName": "Weapon_Quiver_001",
+          "ArrowName": "",
+          "IsGuardPierce": false,
+          "ExtraDamageRatio": 0.6,
+          "BaseAttackPowerRatio": 0.6,
+          "IsLeadShot": false,
+          "LeadShotNum": 0,
+          "LeadShotAng": 45.0,
+          "LeadShotInterval": 0,
+          "IsRapidFire": true,
+          "RapidFireNum": 2,
+          "RapidFireInterval": 3,
+          "IsLongRange": false,
+          "ArrowFirstSpeed": 4.5,
+          "ArrowAcceleration": -0.1,
+          "ArrowStabilitySpeed": 3.0,
+          "ArrowFallAcceleration": -0.2,
+          "ArrowFallStabilitySpeed": 1.0,
+          "ArrowGravity": -9.8,
+          "PlayerHoldTransOffset": [
+            -0.1,
+            0.0,
+            0.05
+          ],
+          "PlayerHoldRotOffset": [
+            0.0,
+            -50.0,
+            -5.0
+          ],
+          "PlayerEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "PlayerEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "SquatPlayerHoldTransAddOffset": [
+            -0.03,
+            -0.01,
+            0.0
+          ],
+          "SquatPlayerHoldRotAddOffset": [
+            0.0,
+            9.0,
+            -10.0
+          ],
+          "NPCHoldTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "NPCHoldRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "NPCEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "NPCEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "EnemyEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "EnemyEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "StandEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "StandEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ArrowChargeRate": 1.0,
+          "ArrowReloadRate": 1.0,
+          "WeaponSubType": "0"
+        },
+        "Item": {
+          "PlayerUseItem": false,
+          "SellingPrice": -1,
+          "BuyingPrice": -1,
+          "CreatingPrice": -1,
+          "StainColor": -1,
+          "SaleRevivalCount": -1,
+          "UseIconActorName": ""
+        },
+        "ClothReaction": {
+          "AtkCollidableName": "",
+          "AtkCollidableBoneName": "",
+          "AtkCollidableSpeed": 0.0,
+          "AtkCollidableActiveTime": 0.0,
+          "AtkCollidableResetPos": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "GroundCollidableName": "Collidable_Ground",
+          "GroundCollidableBoneName": "Ground",
+          "GroundCollidableOffset": -0.08,
+          "UseGroundCollidableResetPos": false,
+          "GroundCollidableResetPos": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "GroundCollidableMoveSpeed": 300.0,
+          "WallCollidableName": "",
+          "WallCollidableBoneName": "",
+          "WallCollidableOffset": 0.05,
+          "PlayerCollidableName": "",
+          "PlayerCollidableBoneName": ""
+        },
+        "PictureBook": {
+          "LiveSpot1": -1,
+          "LiveSpot2": -1,
+          "SpecialDrop": -1
+        }
+      },
+      "lists": {}
+    }
+  },
+  "Weapon_Bow_071.gparamlist": {
+    "version": 0,
+    "type": "xml",
+    "param_root": {
+      "objects": {
+        "System": {
+          "SameGroupActorName": "",
+          "IsGetItemSelf": false
+        },
+        "General": {
+          "Speed": 1.0,
+          "Life": 100,
+          "IsLifeInfinite": true,
+          "ElectricalDischarge": 1.0,
+          "IsBurnOutBorn": false,
+          "BurnOutBornName": "",
+          "IsBurnOutBornIdent": false,
+          "ChangeDropTableName": ""
+        },
+        "Attack": {
+          "Power": 100,
+          "Impulse": 0,
+          "ImpulseLarge": 0,
+          "Range": 500.0,
+          "GuardBreakPower": 0,
+          "SpHitActor": "",
+          "SpHitTag": "",
+          "SpHitRatio": 2.0,
+          "SpWeakHitActor": "",
+          "PowerForPlayer": -1
+        },
+        "WeaponCommon": {
+          "PlayerEqScale": 1.0,
+          "EnemyEqScale": 1.0,
+          "GuardPower": 0,
+          "Rank": 0,
+          "IsHammer": false,
+          "IsWeakBreaker": false,
+          "IsBoomerang": false,
+          "IsBlunt": false,
+          "IsLuckyWeapon": false,
+          "IsPikohan": false,
+          "IsThrowingWeapon": true,
+          "IsThrowingBreakWeapon": true,
+          "ThrowRange": 20.0,
+          "DreadActor": "",
+          "ThroughActor": "",
+          "NPCWeaponType": "",
+          "IsNotOnTerrorHold": false,
+          "IsAsOffUnEquiped": false,
+          "ChemicalEnergyMax": 0,
+          "ChemicalEnergyAmountUsed": 0,
+          "ChemicalEnergyRecoverRate": 0.0,
+          "ChemicalEnergyRecoverInterval": 60,
+          "StickDamage": 0,
+          "ShootBeam": "",
+          "DropFromPorchRot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "SharpWeaponPer": 10.0,
+          "SharpWeaponAddAtkMin": 0,
+          "SharpWeaponAddAtkMax": 0,
+          "SharpWeaponAddLifeMin": 0,
+          "SharpWeaponAddLifeMax": 0,
+          "SharpWeaponAddCrit": false,
+          "SharpWeaponAddGuardMin": 0,
+          "SharpWeaponAddGuardMax": 0,
+          "PoweredSharpAddAtkMin": 0,
+          "PoweredSharpAddAtkMax": 0,
+          "PoweredSharpAddLifeMin": 0,
+          "PoweredSharpAddLifeMax": 0,
+          "PoweredSharpWeaponAddGuardMin": 0,
+          "PoweredSharpWeaponAddGuardMax": 0,
+          "PoweredSharpAddThrowMin": 1.0,
+          "PoweredSharpAddThrowMax": 1.0,
+          "PoweredSharpAddSpreadFire": false,
+          "PoweredSharpAddZoomRapid": false,
+          "PoweredSharpAddRapidFireMin": 1.1,
+          "PoweredSharpAddRapidFireMax": 1.3,
+          "PoweredSharpAddSurfMaster": false
+        },
+        "Bow": {
+          "QuiverName": "",
+          "ArrowName": "BrightArrow",
+          "IsGuardPierce": false,
+          "ExtraDamageRatio": 1.0,
+          "BaseAttackPowerRatio": 1.0,
+          "IsLeadShot": false,
+          "LeadShotNum": 0,
+          "LeadShotAng": 45.0,
+          "LeadShotInterval": 0,
+          "IsRapidFire": false,
+          "RapidFireNum": 0,
+          "RapidFireInterval": 0,
+          "IsLongRange": false,
+          "ArrowFirstSpeed": 7.0,
+          "ArrowAcceleration": -0.1,
+          "ArrowStabilitySpeed": 5.0,
+          "ArrowFallAcceleration": -0.2,
+          "ArrowFallStabilitySpeed": 1.0,
+          "ArrowGravity": -5.0,
+          "PlayerHoldTransOffset": [
+            -0.1,
+            -0.01,
+            0.05
+          ],
+          "PlayerHoldRotOffset": [
+            0.0,
+            -55.0,
+            -5.0
+          ],
+          "PlayerEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "PlayerEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "SquatPlayerHoldTransAddOffset": [
+            -0.04,
+            0.02,
+            -0.01
+          ],
+          "SquatPlayerHoldRotAddOffset": [
+            0.0,
+            7.0,
+            -10.0
+          ],
+          "NPCHoldTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "NPCHoldRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "NPCEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "NPCEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "EnemyEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "EnemyEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "StandEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "StandEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ArrowChargeRate": 1.0,
+          "ArrowReloadRate": 1.0,
+          "WeaponSubType": "0"
+        },
+        "Item": {
+          "PlayerUseItem": false,
+          "SellingPrice": -1,
+          "BuyingPrice": -1,
+          "CreatingPrice": -1,
+          "StainColor": -1,
+          "SaleRevivalCount": -1,
+          "UseIconActorName": ""
+        },
+        "ClothReaction": {
+          "AtkCollidableName": "Collidable_Attack",
+          "AtkCollidableBoneName": "Attack",
+          "AtkCollidableSpeed": 6.0,
+          "AtkCollidableActiveTime": 0.5,
+          "AtkCollidableResetPos": [
+            0.0,
+            0.0,
+            2.0
+          ],
+          "GroundCollidableName": "Collidable_Ground_1",
+          "GroundCollidableBoneName": "Ground_1",
+          "GroundCollidableOffset": 0.05,
+          "UseGroundCollidableResetPos": false,
+          "GroundCollidableResetPos": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "GroundCollidableMoveSpeed": 300.0,
+          "WallCollidableName": "",
+          "WallCollidableBoneName": "",
+          "WallCollidableOffset": 0.05,
+          "PlayerCollidableName": "",
+          "PlayerCollidableBoneName": ""
+        },
+        "PictureBook": {
+          "LiveSpot1": 21,
+          "LiveSpot2": -1,
+          "SpecialDrop": 26
+        }
+      },
+      "lists": {}
+    }
+  },
+  "Weapon_Bow_072.gparamlist": {
+    "version": 0,
+    "type": "xml",
+    "param_root": {
+      "objects": {
+        "System": {
+          "SameGroupActorName": "",
+          "IsGetItemSelf": false
+        },
+        "General": {
+          "Speed": 1.0,
+          "Life": 100,
+          "IsLifeInfinite": false,
+          "ElectricalDischarge": 1.0,
+          "IsBurnOutBorn": false,
+          "BurnOutBornName": "",
+          "IsBurnOutBornIdent": false,
+          "ChangeDropTableName": ""
+        },
+        "Attack": {
+          "Power": 30,
+          "Impulse": 0,
+          "ImpulseLarge": 0,
+          "Range": 8000.0,
+          "GuardBreakPower": 0,
+          "SpHitActor": "",
+          "SpHitTag": "",
+          "SpHitRatio": 2.0,
+          "SpWeakHitActor": "",
+          "PowerForPlayer": -1
+        },
+        "WeaponCommon": {
+          "PlayerEqScale": 1.0,
+          "EnemyEqScale": 1.4,
+          "GuardPower": 0,
+          "Rank": 0,
+          "IsHammer": false,
+          "IsWeakBreaker": false,
+          "IsBoomerang": false,
+          "IsBlunt": false,
+          "IsLuckyWeapon": false,
+          "IsPikohan": false,
+          "IsThrowingWeapon": true,
+          "IsThrowingBreakWeapon": true,
+          "ThrowRange": 20.0,
+          "DreadActor": "",
+          "ThroughActor": "",
+          "NPCWeaponType": "",
+          "IsNotOnTerrorHold": false,
+          "IsAsOffUnEquiped": false,
+          "ChemicalEnergyMax": 0,
+          "ChemicalEnergyAmountUsed": 0,
+          "ChemicalEnergyRecoverRate": 0.0,
+          "ChemicalEnergyRecoverInterval": 60,
+          "StickDamage": 0,
+          "ShootBeam": "",
+          "DropFromPorchRot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "SharpWeaponPer": 10.0,
+          "SharpWeaponAddAtkMin": 4,
+          "SharpWeaponAddAtkMax": 7,
+          "SharpWeaponAddLifeMin": 9,
+          "SharpWeaponAddLifeMax": 18,
+          "SharpWeaponAddCrit": false,
+          "SharpWeaponAddGuardMin": 0,
+          "SharpWeaponAddGuardMax": 0,
+          "PoweredSharpAddAtkMin": 8,
+          "PoweredSharpAddAtkMax": 13,
+          "PoweredSharpAddLifeMin": 19,
+          "PoweredSharpAddLifeMax": 45,
+          "PoweredSharpWeaponAddGuardMin": 0,
+          "PoweredSharpWeaponAddGuardMax": 0,
+          "PoweredSharpAddThrowMin": 1.0,
+          "PoweredSharpAddThrowMax": 1.0,
+          "PoweredSharpAddSpreadFire": false,
+          "PoweredSharpAddZoomRapid": false,
+          "PoweredSharpAddRapidFireMin": 1.1,
+          "PoweredSharpAddRapidFireMax": 1.3,
+          "PoweredSharpAddSurfMaster": false
+        },
+        "Bow": {
+          "QuiverName": "",
+          "ArrowName": "BrightArrowTP",
+          "IsGuardPierce": false,
+          "ExtraDamageRatio": 1.0,
+          "BaseAttackPowerRatio": 1.0,
+          "IsLeadShot": false,
+          "LeadShotNum": 0,
+          "LeadShotAng": 45.0,
+          "LeadShotInterval": 0,
+          "IsRapidFire": false,
+          "RapidFireNum": 0,
+          "RapidFireInterval": 0,
+          "IsLongRange": false,
+          "ArrowFirstSpeed": 7.0,
+          "ArrowAcceleration": -0.1,
+          "ArrowStabilitySpeed": 5.0,
+          "ArrowFallAcceleration": -0.2,
+          "ArrowFallStabilitySpeed": 1.0,
+          "ArrowGravity": -5.0,
+          "PlayerHoldTransOffset": [
+            -0.1,
+            -0.01,
+            0.04
+          ],
+          "PlayerHoldRotOffset": [
+            0.0,
+            -55.0,
+            -5.0
+          ],
+          "PlayerEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "PlayerEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "SquatPlayerHoldTransAddOffset": [
+            -0.04,
+            0.005,
+            0.0
+          ],
+          "SquatPlayerHoldRotAddOffset": [
+            0.0,
+            10.0,
+            -10.0
+          ],
+          "NPCHoldTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "NPCHoldRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "NPCEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "NPCEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "EnemyEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "EnemyEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "StandEquipTransOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "StandEquipRotOffset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ArrowChargeRate": 1.0,
+          "ArrowReloadRate": 1.0,
+          "WeaponSubType": "0"
+        },
+        "Item": {
+          "PlayerUseItem": false,
+          "SellingPrice": -1,
+          "BuyingPrice": -1,
+          "CreatingPrice": -1,
+          "StainColor": -1,
+          "SaleRevivalCount": -1,
+          "UseIconActorName": ""
+        },
+        "ClothReaction": {
+          "AtkCollidableName": "Collidable_Attack",
+          "AtkCollidableBoneName": "Attack",
+          "AtkCollidableSpeed": 6.0,
+          "AtkCollidableActiveTime": 0.5,
+          "AtkCollidableResetPos": [
+            0.0,
+            0.0,
+            2.0
+          ],
+          "GroundCollidableName": "Collidable_Ground_1",
+          "GroundCollidableBoneName": "Ground_1",
+          "GroundCollidableOffset": 0.05,
+          "UseGroundCollidableResetPos": false,
+          "GroundCollidableResetPos": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "GroundCollidableMoveSpeed": 300.0,
+          "WallCollidableName": "",
+          "WallCollidableBoneName": "",
+          "WallCollidableOffset": 0.05,
+          "PlayerCollidableName": "",
+          "PlayerCollidableBoneName": ""
+        }
+      },
+      "lists": {}
+    }
+  }
+}
