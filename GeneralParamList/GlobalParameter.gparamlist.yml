@@ -23,7 +23,7 @@ param_root: !list
       ForceNoticeEnemyDist: 50.0
       WeaponRickeyLife: 3
       WeaponDropRotSpd: 60.0
-      #It's still 4 secons on Switch 2(60FPS, ver.1.8.2)
+      #ShieldRideBaseFrame: 120→240 because it's still 4 secons on Switch 2(60FPS, ver.1.8.2)
       ShieldRideBaseFrame: 240
       ShieldRideHitBaseDamage: 1
       ShieldDamageratio: 0.2
